@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.xtend.typesystem.uml2.patch"
+      label="Xtend (2.2.0) UML2 Typesystem Patch Feature for UML Lab"
+      version="1.17.220.201910040910"
+      provider-name="Yatta Solutions GmbH">
+
+   <description url="http://www.eclipse.org/modeling/m2t">
+      Xtend UML2 Typesystem
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      %copyright
+   </copyright>
+
+   <license url="epl-v10.html">
+      %license
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="http://update.uml-lab.com/"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.xtend.typesystem.uml2" version="2.2.0.v201605260315" patch="true"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.xtend.typesystem.uml2"
+         download-size="51"
+         install-size="95"
+         version="2.2.0.yatta-patch-201910040908"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.typesystem.uml2.ui"
+         download-size="23"
+         install-size="39"
+         version="2.2.0.yatta-patch-201910040908"
+         unpack="false"/>
+
+</feature>

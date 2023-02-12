@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?eclipse version="3.4"?><plugin>
+
+   <extension point="org.eclipse.ui.intro">
+         <intro class="org.eclipse.ui.intro.config.CustomizableIntroPart" icon="intro/img/YattaLogo_16x16.png" id="com.yattasolutions.umllab.intro"/>
+         <introProductBinding introId="com.yattasolutions.umllab.intro" productId="com.yattasolutions.umllab.branding.product"/>
+   </extension>
+   <extension point="org.eclipse.ui.intro.config">
+      <config content="$nl$/intro/introContent.xml" id="com.yattasolutions.umllab.intro.config" introId="com.yattasolutions.umllab.intro">
+         <presentation home-page-id="welcome" standby-page-id="standby">
+            <implementation kind="html">
+            </implementation>
+         </presentation>
+      </config>
+   </extension>
+   <extension point="org.eclipse.ui.startup">
+      <startup class="com.yattasolutions.umllab.intro.f">
+      </startup>
+   </extension>
+   <extension point="org.eclipse.ui.editors">
+      <editor class="com.yattasolutions.umllab.intro.b" contributorClass="org.eclipse.ui.part.EditorActionBarContributor" extensions="umllab" icon="intro/img/YattaLogo_16x16.png" id="com.yattasolutions.umllab.intro.IntroEditor" name="Getting started with UML Lab">
+      </editor>
+   </extension>
+   <extension point="org.eclipse.ui.actionSets">
+      <actionSet id="com.yattasolutions.umllab.introActionSet" label="UML Lab intro action set" visible="true">
+         <action class="com.yattasolutions.umllab.intro.e" icon="intro/img/YattaLogo_16x16.png" id="com.yattasolutions.umllab.intro.action" label="Getting started with UML Lab" menubarPath="help/intro" style="push">
+         </action>
+      </actionSet>
+   </extension>
+   <extension point="org.eclipse.ui.elementFactories">
+      <factory class="com.yattasolutions.umllab.intro.c" id="com.yattasolutions.umllab.intro.IntroEditor.factory">
+      </factory>
+   </extension>
+
+</plugin>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.umllab"
+      label="UML Lab Modeling IDE"
+      version="1.31.0.202212071133"
+      provider-name="%providerName"
+      plugin="com.yattasolutions.umllab.branding">
+
+   <description>
+      UML Lab Modeling IDE
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+   %licenseText 
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="https://platform.yatta.de/update/uml-lab"/>
+   </url>
+   
+   <includes
+         id="com.yattasolutions.codegen"
+         version="1.31.0.202212071133"/>
+
+   <includes
+         id="com.yattasolutions.codegen.reverse"
+         version="1.31.0.202212071133"/>
+
+   <includes
+         id="com.yattasolutions.umllab.core"
+         version="1.31.0.202212071133"/>
+
+   <includes
+         id="com.yattasolutions.xpandpp"
+         version="1.31.0.202212071133"/>
+
+   <includes
+         id="com.yattasolutions.diagrams.classdiagram"
+         version="1.31.0.202212071133"/>
+
+   <includes
+         id="com.yattasolutions.ecore"
+         version="1.31.0.202212071133"/>
+
+   <includes
+         id="com.yattasolutions.qvto"
+         version="1.31.0.202212071133"/>
+
+   <requires>
+      <import feature="de.yatta.platform.analytics" version="1.3.62" match="greaterOrEqual"/>
+      <import feature="org.eclipse.xpand" version="1.0.1" match="greaterOrEqual"/>
+      <import feature="org.eclipse.xpand.ui" version="1.0.1" match="greaterOrEqual"/>
+      <import feature="org.eclipse.xtend" version="1.0.1" match="greaterOrEqual"/>
+      <import feature="org.eclipse.xtend.ui" version="1.0.1" match="greaterOrEqual"/>
+      <import feature="org.eclipse.xtend.typesystem.emf" version="1.0.1" match="greaterOrEqual"/>
+      <import feature="org.eclipse.xtend.typesystem.uml2" version="1.0.1" match="greaterOrEqual"/>
+      <import feature="com.yattasolutions.org.eclipse.emf.compare" version="1.1.2" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="com.yattasolutions.umllab.branding"
+         download-size="196"
+         install-size="329"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.intro"
+         download-size="3698"
+         install-size="9240"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.version"
+         download-size="1"
+         install-size="1"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.trial"
+         download-size="2"
+         install-size="1"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

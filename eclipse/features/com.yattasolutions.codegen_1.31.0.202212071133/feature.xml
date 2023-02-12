@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.codegen"
+      label="UML Lab CodeGen Feature"
+      version="1.31.0.202212071133"
+      provider-name="%providerName">
+
+   <description>
+      UML Lab CodeGen Feature
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+   %licenseText 
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="https://platform.yatta.de/update/uml-lab"/>
+   </url>
+
+   <requires>
+      <import feature="com.yattasolutions.umllab.core" version="1.31.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="com.yattasolutions.codegen"
+         download-size="155"
+         install-size="384"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.oaw"
+         download-size="147"
+         install-size="415"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.persistency.profile"
+         download-size="234"
+         install-size="2077"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.persistency.ui"
+         download-size="49"
+         install-size="174"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.ui"
+         download-size="116"
+         install-size="312"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.oaw.ui"
+         download-size="22"
+         install-size="106"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.java"
+         download-size="23"
+         install-size="54"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.java.JDTDisassembled"
+         download-size="6"
+         install-size="10"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.php"
+         download-size="36"
+         install-size="216"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.php.zend"
+         download-size="13"
+         install-size="84"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.features.oaw"
+         download-size="18"
+         install-size="54"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.linking"
+         download-size="40"
+         install-size="126"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.linking.ui"
+         download-size="44"
+         install-size="143"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.linking.providers"
+         download-size="26"
+         install-size="124"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.common"
+         download-size="19"
+         install-size="87"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.common.ui"
+         download-size="27"
+         install-size="114"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.api"
+         download-size="11"
+         install-size="79"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.reporting.trac"
+         download-size="60"
+         install-size="164"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

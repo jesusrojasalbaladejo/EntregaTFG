@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.umllab.core"
+      label="UML Lab Core Feature"
+      version="1.31.0.202212071133"
+      provider-name="%providerName">
+
+   <description>
+      UML Lab Core Feature
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+   %licenseText 
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="https://platform.yatta.de/update/uml-lab"/>
+   </url>
+
+   <includes
+         id="com.yattasolutions.coobra"
+         version="1.31.0.202212071133"/>
+
+   <includes
+         id="com.yattasolutions.features"
+         version="1.31.0.202212071133"/>
+
+   <includes
+         id="com.yattasolutions.openlibs"
+         version="1.31.0.202212071133"/>
+
+   <requires>
+      <import feature="de.yatta.platform.analytics" version="1.3.62" match="greaterOrEqual"/>
+      <import feature="com.yattasolutions.patches.uml2" version="1.17.500.qualifier" match="greaterOrEqual"/>
+      <import feature="com.yattasolutions.patches.xpand" version="1.17.210.qualifier" match="greaterOrEqual"/>
+      <import feature="org.eclipse.uml2" version="3.1.1" match="greaterOrEqual"/>
+      <import feature="org.eclipse.rcp" version="3.8.0" match="greaterOrEqual"/>
+      <import feature="de.yatta.platform.marketplace.licensing.client.feature" version="2.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.yattasolutions.umllab"
+         download-size="2314"
+         install-size="6313"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_paderborn.runtimetools"
+         download-size="154"
+         install-size="297"
+         version="1.0.2.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.util"
+         download-size="69"
+         install-size="127"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.assocs.features"
+         download-size="8"
+         install-size="19"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.assocs"
+         download-size="253"
+         install-size="598"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.licensing"
+         download-size="40"
+         install-size="104"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.help"
+         download-size="6442"
+         install-size="7387"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.ccp"
+         download-size="33"
+         install-size="131"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.ui"
+         download-size="827"
+         install-size="1270"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.api"
+         download-size="23"
+         install-size="91"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.updates"
+         download-size="6"
+         install-size="26"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

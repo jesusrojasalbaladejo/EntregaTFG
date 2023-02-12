@@ -1,0 +1,377 @@
+diff --git a/plugins/org.eclipse.uml2.codegen.ecore.ui/.gitignore b/plugins/org.eclipse.uml2.codegen.ecore.ui/.gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ b/plugins/org.eclipse.uml2.codegen.ecore.ui/.gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git a/plugins/org.eclipse.uml2.codegen.ecore/.gitignore b/plugins/org.eclipse.uml2.codegen.ecore/.gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ b/plugins/org.eclipse.uml2.codegen.ecore/.gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git a/plugins/org.eclipse.uml2.common.edit/.gitignore b/plugins/org.eclipse.uml2.common.edit/.gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ b/plugins/org.eclipse.uml2.common.edit/.gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git a/plugins/org.eclipse.uml2.common/.gitignore b/plugins/org.eclipse.uml2.common/.gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ b/plugins/org.eclipse.uml2.common/.gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git a/plugins/org.eclipse.uml2.uml.ecore.exporter/.gitignore b/plugins/org.eclipse.uml2.uml.ecore.exporter/.gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ b/plugins/org.eclipse.uml2.uml.ecore.exporter/.gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git a/plugins/org.eclipse.uml2.uml.ecore.importer/.gitignore b/plugins/org.eclipse.uml2.uml.ecore.importer/.gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ b/plugins/org.eclipse.uml2.uml.ecore.importer/.gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git a/plugins/org.eclipse.uml2.uml.edit/.gitignore b/plugins/org.eclipse.uml2.uml.edit/.gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ b/plugins/org.eclipse.uml2.uml.edit/.gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git a/plugins/org.eclipse.uml2.uml.editor/.gitignore b/plugins/org.eclipse.uml2.uml.editor/.gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ b/plugins/org.eclipse.uml2.uml.editor/.gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git a/plugins/org.eclipse.uml2.uml/.gitignore b/plugins/org.eclipse.uml2.uml/.gitignore
+new file mode 100644
+index 0000000..ae3c172
+--- /dev/null
++++ b/plugins/org.eclipse.uml2.uml/.gitignore
+@@ -0,0 +1 @@
++/bin/
+diff --git a/plugins/org.eclipse.uml2.uml/META-INF/MANIFEST.MF b/plugins/org.eclipse.uml2.uml/META-INF/MANIFEST.MF
+index 9ca3140..c0850df 100644
+--- a/plugins/org.eclipse.uml2.uml/META-INF/MANIFEST.MF
++++ b/plugins/org.eclipse.uml2.uml/META-INF/MANIFEST.MF
+@@ -2,7 +2,7 @@ Manifest-Version: 1.0
+ Bundle-ManifestVersion: 2
+ Bundle-Name: %pluginName
+ Bundle-SymbolicName: org.eclipse.uml2.uml; singleton:=true
+-Bundle-Version: 3.1.1.qualifier
++Bundle-Version: 3.1.1.yatta-patch-qualifier
+ Bundle-ClassPath: .
+ Bundle-Activator: org.eclipse.uml2.uml.UMLPlugin$Implementation
+ Bundle-Vendor: %providerName
+diff --git a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/ClassImpl.java b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/ClassImpl.java
+index 82d5fbc..f80800c 100644
+--- a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/ClassImpl.java
++++ b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/ClassImpl.java
+@@ -572,23 +572,12 @@ public class ClassImpl
+ 	 */
+ 	@Override
+ 	public EList<Property> getAttributes() {
+-		CacheAdapter cache = getCacheAdapter();
+-		if (cache != null) {
+-			Resource eResource = eResource();
+-			@SuppressWarnings("unchecked")
+-			EList<Property> attributes = (EList<Property>) cache.get(eResource,
+-				this, UMLPackage.Literals.CLASSIFIER__ATTRIBUTE);
+-			if (attributes == null) {
+-				cache.put(eResource, this,
+-					UMLPackage.Literals.CLASSIFIER__ATTRIBUTE,
+-					attributes = new DerivedUnionEObjectEList<Property>(
+-						Property.class, this, UMLPackage.CLASS__ATTRIBUTE,
+-						ATTRIBUTE_ESUBSETS));
+-			}
+-			return attributes;
+-		}
+-		return new DerivedUnionEObjectEList<Property>(Property.class, this,
+-			UMLPackage.CLASS__ATTRIBUTE, ATTRIBUTE_ESUBSETS);
++	   return getOwnedAttributes();
++	}
++
++	@Override
++	public EList<Operation> getOperations() {
++	   return getOwnedOperations();
+ 	}
+ 
+ 	/**
+diff --git a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/DataTypeImpl.java b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/DataTypeImpl.java
+index 2e23fe0..2f937f0 100644
+--- a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/DataTypeImpl.java
++++ b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/DataTypeImpl.java
+@@ -126,31 +126,23 @@ public class DataTypeImpl
+ 		return UMLPackage.Literals.DATA_TYPE;
+ 	}
+ 
+-	/**
+-	 * <!-- begin-user-doc -->
+-	 * <!-- end-user-doc -->
+-	 * @generated
+-	 */
+-	@Override
+-	public EList<Property> getAttributes() {
+-		CacheAdapter cache = getCacheAdapter();
+-		if (cache != null) {
+-			Resource eResource = eResource();
+-			@SuppressWarnings("unchecked")
+-			EList<Property> attributes = (EList<Property>) cache.get(eResource,
+-				this, UMLPackage.Literals.CLASSIFIER__ATTRIBUTE);
+-			if (attributes == null) {
+-				cache.put(eResource, this,
+-					UMLPackage.Literals.CLASSIFIER__ATTRIBUTE,
+-					attributes = new DerivedUnionEObjectEList<Property>(
+-						Property.class, this, UMLPackage.DATA_TYPE__ATTRIBUTE,
+-						ATTRIBUTE_ESUBSETS));
+-			}
+-			return attributes;
+-		}
+-		return new DerivedUnionEObjectEList<Property>(Property.class, this,
+-			UMLPackage.DATA_TYPE__ATTRIBUTE, ATTRIBUTE_ESUBSETS);
+-	}
++   /**
++    * Overridden to allow enumerations to have owned attributes
++    */
++   @Override
++   public EList<Property> getAttributes()
++   {
++      return getOwnedAttributes();
++   }
++
++   /**
++    * Overridden to allow enumerations to have operations
++    */
++   @Override
++   public EList<Operation> getOperations()
++   {
++      return getOwnedOperations();
++   }
+ 
+ 	/**
+ 	 * <!-- begin-user-doc -->
+diff --git a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/EnumerationImpl.java b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/EnumerationImpl.java
+index 1688a88..8f98d04 100644
+--- a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/EnumerationImpl.java
++++ b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/EnumerationImpl.java
+@@ -70,7 +70,8 @@ public class EnumerationImpl
+ 		extends DataTypeImpl
+ 		implements Enumeration {
+ 
+-	/**
++
++   /**
+ 	 * The cached value of the '{@link #getOwnedLiterals() <em>Owned Literal</em>}' containment reference list.
+ 	 * <!-- begin-user-doc -->
+ 	 * <!-- end-user-doc -->
+diff --git a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/InterfaceImpl.java b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/InterfaceImpl.java
+index 7013bb3..f53e1df 100644
+--- a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/InterfaceImpl.java
++++ b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/InterfaceImpl.java
+@@ -186,25 +186,14 @@ public class InterfaceImpl
+ 	 * @generated
+ 	 */
+ 	@Override
+-	public EList<Property> getAttributes() {
+-		CacheAdapter cache = getCacheAdapter();
+-		if (cache != null) {
+-			Resource eResource = eResource();
+-			@SuppressWarnings("unchecked")
+-			EList<Property> attributes = (EList<Property>) cache.get(eResource,
+-				this, UMLPackage.Literals.CLASSIFIER__ATTRIBUTE);
+-			if (attributes == null) {
+-				cache.put(eResource, this,
+-					UMLPackage.Literals.CLASSIFIER__ATTRIBUTE,
+-					attributes = new DerivedUnionEObjectEList<Property>(
+-						Property.class, this, UMLPackage.INTERFACE__ATTRIBUTE,
+-						ATTRIBUTE_ESUBSETS));
+-			}
+-			return attributes;
+-		}
+-		return new DerivedUnionEObjectEList<Property>(Property.class, this,
+-			UMLPackage.INTERFACE__ATTRIBUTE, ATTRIBUTE_ESUBSETS);
+-	}
++    public EList<Property> getAttributes() {
++       return getOwnedAttributes();
++    }
++
++    @Override
++    public EList<Operation> getOperations() {
++       return getOwnedOperations();
++    }
+ 
+ 	/**
+ 	 * <!-- begin-user-doc -->
+diff --git a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/PackageImpl.java b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/PackageImpl.java
+index d9f6fb8..dfb515d 100644
+--- a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/PackageImpl.java
++++ b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/internal/impl/PackageImpl.java
+@@ -20,25 +20,18 @@ import java.util.Map;
+ 
+ import org.eclipse.emf.common.notify.Notification;
+ import org.eclipse.emf.common.notify.NotificationChain;
+-
+ import org.eclipse.emf.common.util.DiagnosticChain;
+-
+ import org.eclipse.emf.common.util.EList;
+-
+ import org.eclipse.emf.ecore.EAnnotation;
+ import org.eclipse.emf.ecore.EClass;
+ import org.eclipse.emf.ecore.EObject;
+ import org.eclipse.emf.ecore.InternalEObject;
+-
+ import org.eclipse.emf.ecore.impl.ENotificationImpl;
+-
+ import org.eclipse.emf.ecore.resource.Resource;
+-
+ import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+ import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
+ import org.eclipse.emf.ecore.util.EcoreUtil;
+ import org.eclipse.emf.ecore.util.InternalEList;
+-
+ import org.eclipse.uml2.common.util.CacheAdapter;
+ import org.eclipse.uml2.common.util.DerivedSubsetEObjectEList;
+ import org.eclipse.uml2.common.util.DerivedUnionEObjectEList;
+@@ -67,7 +60,6 @@ import org.eclipse.uml2.uml.TemplateableElement;
+ import org.eclipse.uml2.uml.Type;
+ import org.eclipse.uml2.uml.UMLPackage;
+ import org.eclipse.uml2.uml.VisibilityKind;
+-
+ import org.eclipse.uml2.uml.internal.operations.PackageOperations;
+ import org.eclipse.uml2.uml.internal.operations.ParameterableElementOperations;
+ import org.eclipse.uml2.uml.internal.operations.TemplateableElementOperations;
+@@ -607,16 +599,42 @@ public class PackageImpl
+ 			this, UMLPackage.PACKAGE__OWNED_MEMBER, OWNED_MEMBER_ESUBSETS);
+ 	}
+ 
++   /**
++    * ID that identifies the event when a classifier or another
++    * packaged element is to be notified when its package changes.
++    */
++	public static final int WORKAROUND_PACKAGECHANGED_EVENT = 1242468945;
++
+ 	/**
+ 	 * <!-- begin-user-doc -->
+ 	 * <!-- end-user-doc -->
+-	 * @generated
+ 	 */
+ 	public EList<PackageableElement> getPackagedElements() {
+ 		if (packagedElements == null) {
+ 			packagedElements = new EObjectContainmentEList.Resolving<PackageableElement>(
+ 				PackageableElement.class, this,
+-				UMLPackage.PACKAGE__PACKAGED_ELEMENT);
++				UMLPackage.PACKAGE__PACKAGED_ELEMENT)
++				{
++               private static final long serialVersionUID = 1828963725637L;
++
++               @Override
++			      public boolean add(PackageableElement object)
++			      {
++			         boolean result = super.add(object);
++                  if(result == true)
++                  {
++                     Notification notification = new ENotificationImpl(
++                        PackageImpl.this,
++                        WORKAROUND_PACKAGECHANGED_EVENT,
++                        UMLPackage.PACKAGEABLE_ELEMENT__NAMESPACE,
++                        null,
++                        object
++                     );
++                     object.eNotify(notification);
++                  }
++			         return result;
++			      }
++				};
+ 		}
+ 		return packagedElements;
+ 	}
+diff --git a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/util/UMLUtil.java b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/util/UMLUtil.java
+index c3e19f2..57a64ad 100644
+--- a/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/util/UMLUtil.java
++++ b/plugins/org.eclipse.uml2.uml/src/org/eclipse/uml2/uml/util/UMLUtil.java
+@@ -8801,7 +8801,14 @@ public class UMLUtil
+ 			org.eclipse.uml2.uml.Package package_ = type.getNearestPackage();
+ 
+ 			if (package_ != null) {
+-				EPackage ePackage = getEPackage(package_);
++				EPackage ePackage;
++
++		      if (package_ instanceof Profile)
++		      {
++		         ePackage = ((Profile) package_).getDefinition();
++		      } else {
++		         ePackage = getEPackage(package_);
++		      }
+ 
+ 				if (ePackage != null) {
+ 					return ePackage.getEClassifier(type.getName());
+@@ -8915,14 +8922,24 @@ public class UMLUtil
+ 
+ 			return null;
+ 		} else if (definition instanceof EStructuralFeature) {
+-			org.eclipse.uml2.uml.Class class_ = (org.eclipse.uml2.uml.Class) getNamedElement(
++			org.eclipse.uml2.uml.Classifier classifier = (org.eclipse.uml2.uml.Classifier) getNamedElement(
+ 				((EStructuralFeature) definition).getEContainingClass(),
+ 				context);
+ 
+-			if (class_ != null) {
++			if (classifier != null) {
+ 				String name = definition.getName();
+-
+-				for (Property ownedAttribute : class_.getOwnedAttributes()) {
++				List<Property> ownedAttributes;
++				if(classifier instanceof org.eclipse.uml2.uml.Class) {
++               org.eclipse.uml2.uml.Class class_ = (org.eclipse.uml2.uml.Class)classifier;
++               ownedAttributes = class_.getOwnedAttributes();
++            } else if(classifier instanceof Interface) {
++               Interface iface = (Interface)classifier;
++               ownedAttributes = iface.getOwnedAttributes();
++            } else {
++               return null;
++            }
++				
++				for (Property ownedAttribute : ownedAttributes) {
+ 
+ 					if (safeEquals(getValidJavaIdentifier(ownedAttribute
+ 						.getName()), name)) {
+@@ -9146,17 +9163,18 @@ public class UMLUtil
+ 
+ 	protected static Element getOwningElement(Element element, EClass eClass,
+ 			boolean resolve) {
+-		Element owningElement = null;
+-
+-		for (Element owner = element; ((owningElement = (Element) owner.eGet(
+-			UMLPackage.Literals.ELEMENT__OWNER, resolve)) == null
+-			? owner = owningElement = getBaseElement(owner.eContainer())
+-			: owningElement) != null
+-			&& !(eClass.isInstance(owningElement));) {
+-
+-			owner = owner.getOwner();
+-		}
+-
++		Element owningElement = element;
++		do {
++		   Element tmp  = (Element) owningElement.eGet(UMLPackage.Literals.ELEMENT__OWNER, resolve);
++		   if (tmp == null) {
++		      EObject tmpEContainer = owningElement.eContainer();
++		      // traverse eContainer until a stereotype application is found
++		      while (tmpEContainer != null && (tmp = getBaseElement(tmpEContainer)) == null) {
++		         tmpEContainer = tmpEContainer.eContainer();
++            }
++		   }
++		   owningElement = tmp;
++		} while (owningElement != null && !(eClass.isInstance(owningElement)));
+ 		return owningElement;
+ 	}
+ 

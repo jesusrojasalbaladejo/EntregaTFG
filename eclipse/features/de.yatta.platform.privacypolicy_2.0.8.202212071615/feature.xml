@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.yatta.platform.privacypolicy"
+      label="%featureName"
+      version="2.0.8.202212071615"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%privacyPolicyUrl">
+      %privacyPolicy
+   </license>
+
+   <url>
+      <update label="Yatta Privacy Policy" url="http://marketplace.yatta.de/update"/>
+   </url>
+
+</feature>

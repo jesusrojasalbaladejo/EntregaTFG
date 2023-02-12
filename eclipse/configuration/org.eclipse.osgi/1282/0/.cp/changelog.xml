@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog lastUpdate="2015-04-30 11:51:00">		
+	<release version="v1.31.0">
+		<change>Eclipse 2022-12 Release</change>
+	</release>
+	
+	<release version="v1.30.0">
+		<change>Yatta Checkout release</change>
+		<change>Updates according to Yatta Brand Relaunch</change>
+	</release>
+	
+	<release version="v1.29.0">
+		<change>Eclipse 2022-09 Release</change>
+	</release>
+	
+	<release version="v1.28.0">
+		<change>Eclipse 2022-06 Release</change>
+	</release>
+	
+	<release version="v1.27.0">
+		<change>Eclipse 2022-03 Release</change>
+	</release>
+	
+	<release version="v1.26.1">
+		<change>Bugfixes regarding Round-Trip-Engineering support for Java 17</change>
+	</release>
+	
+	<release version="v1.26.0">
+		<change>Eclipse 2021-12 Release</change>
+		<change>Round-Trip-Engineering support for Java 17</change>
+	</release>
+	
+	<release version="v1.25.0">
+		<change>Eclipse 2021-09 Release</change>
+	</release>
+	
+	<release version="v1.24.0">
+		<change>Eclipse 2021-06 Release</change>
+	</release>
+	
+	<release version="v1.23.0">
+		<change>Eclipse 2021-03 Release</change>
+		<change>Enabled license purchase within the Eclipse IDE</change>
+		<change>New User Account Management for editing your data</change>
+	</release>
+
+	<release version="v1.22.0">
+		<change>Eclipse 2020-12 Release</change>
+	</release>
+
+	<release version="v1.21.0">
+		<change>Eclipse 2020-09 Release</change>
+	</release>
+	
+	<release version="v1.20.0">
+		<change>Eclipse 2020-06 Release</change>
+	</release>
+	
+	<release version="v1.19.0">
+		<change>Eclipse 2020-03 Release</change>
+	</release>
+	
+	<release version="v1.18.0">
+		<change>Eclipse 2019-12 Release</change>
+	</release>
+	
+	<release version="v1.17.0">
+		<change>Introduced account-based licenses</change>
+	</release>
+	
+	<release version="v1.16.0">
+		<change>Eclipse 2019-09 Release</change>
+	</release>
+	
+	<release version="v1.15.0">
+		<change>Eclipse 2019-06 Release</change>
+	</release>
+	
+	<release version="v1.14.0">
+		<change>Eclipse 2019-03 Release</change>
+	</release>
+
+	<release version="v1.13.0">
+		<change>Eclipse 2018-12 Release</change>
+	</release>
+	
+	<release version="v1.12.0">
+		<change>Eclipse 2018-09 Release</change>
+	</release>
+	
+	<release version="v1.11.0">
+		<change>Eclipse Photon Release</change>
+	</release>
+	
+	<release version="v1.10.3">
+		<change>Eclipse Oxygen.3 Release</change>
+	</release>
+
+	<release version="v1.10.2">
+		<change>Eclipse Oxygen.2 Release</change>
+		<change>Improved UML Lab proxy support</change>
+	</release>
+
+	<release version="v1.10.1">
+		<change>Eclipse Oxygen.1 Release</change>
+		<change>Java 9 compatibility</change>
+	</release>
+
+	<release version="v1.10.0">
+		<change>Eclipse Oxygen Release</change>
+	</release>
+
+	<release version="v1.9.0">
+		<change>Eclipse Neon Release</change>
+		<change>UI: Fixed issue in Universal Tool.</change>
+	</release>
+
+	<release version="v1.8.2">
+		<change>Eclipse Mars SR2 Release</change>
+		<change>Architecture Review: Metrics to analyze Software Architecture</change>
+		<change>Architecture Review: Tooling to spot dependencies</change>
+		<change>Architecture Review: Visualize model-based call hierarchy</change>
+		<change>Architecture Review is now available on UML Lab Update Site</change>
+		<change>Diagram Editors: Fixed Snap to geometry option</change>
+	</release>
+
+	<release version="v1.8.1">
+		<change>Eclipse Mars SR1 Release</change>
+		<change>UI: Fixed issues with perspective customization</change>
+	</release>
+
+	<release version="v1.8.0">
+		<change>Eclipse Mars Release</change>
+		<change>UI: Added editing for attribute and operation multiplicities</change>
+		<change>UI: Improved floating license preference configuration</change>
+		<change>Image Export: Trim unnecessary whitespace on diagram export</change>
+	</release>
+
+	<release version="v1.7.2">
+		<change>Eclipse Luna SR2 Release</change>
+		<change>UI: One CellEditor for direct editing of Operations and Properties</change>
+		<change>UI: Added new filters for UML Lab Treeview</change>
+		<change>UI: Fixed routing of Containment-Associations</change>
+		<change>UI: Overhauled Appearance Property Section</change>
+	</release>
+
+	<release version="v1.7.1">
+		<change>Eclipse Luna SR1 Release</change>
+		<change>UI: Added possibility to configure visibility of default values</change>
+		<change>UI: Fixed deleting of Comments on Associations</change>
+		<change>UI: Fixed routing of Comments on Associations</change>
+		<change>API: Separated Diagram API - don't enforce dependency to Round-Trip-Engineering</change>
+	</release>
+
+	<release version="v1.7.0">
+		<change>Eclipse Luna Release</change>
+		<change>Stability and Performance Improvements</change>
+		<change>Round-Trip-Engineering: Added support for Xpand 2.x Templates</change>
+		<change>Licensing: Improved Proxy Support</change>
+	</release>
+
+	<release version="v1.6.2">
+		<change>Eclipse Kepler SR2 Release</change>
+		<change>UML Lab is ready for Java 8</change>
+		<change>UI: Improved link creation</change>
+		<change>UI: Added 'Configure Element Imports' dialog</change>
+		<change>UI: added support for UML Components</change>
+		<change>UI: Refactoring to replace occurrences</change>
+		<change>Round-Trip-Engineering: Support UNC paths</change>
+		<change>Round-Trip-Engineering: Support files with different line separators within a project</change>
+		<change>JPA templates: Improved support for EclipseLink</change>
+		<change>Team support: Prefer shared code details</change>
+		<change>Improved memory footprint for large projects</change>
+	</release>
+
+	<release version="v1.6.1">
+		<change>Eclipse Kepler SR1 Release</change>
+	</release>
+	
+	<release version="v1.6.0">
+		<change>Eclipse Kepler Release</change>
+      <change>UI: Diagram Filter toolbar with new filter possibilities</change>
+      <change>UI: Several Universal Tool improvements</change>
+      <change>Round-Trip-Engineering: More agile round-trip feedback while typing</change>
+      <change>Round-Trip-Engineering: Improved memory performance</change>
+      <change>Licensing: Fixed issues with offline configuration changes</change>
+      <change>Licensing: Fixed blocking license dialog during startup</change>
+	</release>
+
+	<release version="v1.5.3">
+		<change>Eclipse Juno SR 2 Release</change>
+		<change>Model refactorings: Convert to/from PrimitiveType, DataType, Enumeration</change>
+		<change>Validation: Quickfix for broken Association</change>
+		<change>Validation: Check and quickfix for broken constructor declarations</change>
+		<change>Ecore support: Export DataTypes to EDataTypes</change>
+		<change>Ecore support: Fixes for base packages and classes in java(x).* namespace</change>
+		<change>Ecore support: New tutorial</change>
+		<change>Licensing: Fixed issues with the floating server</change>
+	</release>
+
+	<release version="v1.5.2">
+		<change>Ecore support: Create and edit Ecore models and generate EMF code</change>
+		<change>Support for model transformations with QVTo</change>
+		<change>UI: Navigation tentacles for packages</change>
+		<change>UI: Pimped "Show Neighbors" dialog: Use FQN, indicate direction of connections</change>
+		<change>UI: Indicate deletion of contained elements, when deleting elements in the tree view</change>
+		<change>Linking and Navigation: Use workspace relative pathes (fixes issues with Maven parent project)</change>
+		<change>JPA Templates: Support @Temporal Annotation</change>
+		<change>Round-Trip-Engineering: Improved reloading of code details with changed templates</change>
+		<change>Round-Trip-Engineering: Fixed issues with patches</change>
+		<change>Reverse Engineering: Fixed detection of legacy properties</change>
+		<change>Reverse Engineering: Speedup parsing and improved progress indication</change>
+      <change>Per-model configuration of code generation and reverse engineering</change>
+		<change>Licensing: Improved support for floating contingents</change>
+		<change>Closed a severe memory leak</change>
+	</release>
+	
+	<release version="v1.5.1">
+		<change>Eclipse Juno SR 1 Release</change>
+		<change>Code Generator: If source code is not in sync, display a review dialog</change>
+		<change>Code Generator: Unified line endings to Windows</change>
+	</release>
+
+	<release version="v1.5.0">
+		<change>Eclipse Juno Release</change>
+      <change>UI: Re-design of "Hints" view</change>
+		<change>UI: Improvements for Mac OS (context menu and icons)</change>
+		<change>UI: Support hiding of Associations with a qualifier</change>
+		<change>Round-Trip-Engineering: Improved Java legacy support</change>
+      <change>General: Adaptions required for e4</change>
+	</release>
+
+   <!--
+   XMI import/export (Rational Software Architect, TopCASED)
+   <change>Support for Cut, Copy &amp; Paste in class diagrams</change>
+   -->
+   <release version="v1.4.3" >
+      <change>UI: Distinguish between null and empty string for default values of Properties</change>
+      <change>UI: New diagram property tab simplifies configuring the root package</change>
+      <change>Java-Templates: Support JPA2 cascade type "Detach"</change>
+      <change>Round-Trip-Engineering: Improved start-up behavior with workspace profiles</change>
+      <change>Round-Trip-Engineering: Allow forcing of template reloading</change>
+      <change>Model Validation: Detect broken associations</change>
+      <change>Template editor: Highlight indentation</change>
+      <change>Template editor: Fixed selected positions when navigating from the model</change>
+      <change>Team support: Improved sharing of code details</change>
+      <change>General: Improved progress indication of background jobs</change>
+   </release>
+
+   <release version="v1.4.2" >
+      <change>Eclipse Indigo SR2 Release</change>
+   </release>
+
+   <release version="v1.4.1" >
+      <change>Round-Trip-Engineering: Control template reloading</change>
+      <change>Improved Mylyn integration</change>
+      <change>Maven integration</change>
+   </release>
+   
+   <release version="v1.4.0" >
+      <change>Mylyn integration: Task focused diagrams</change>
+      <change>Help: Added new hints to the UML Lab Hints view</change>
+      <change>UI: Fixed image export when diagram is moved beyond the origin</change>
+      <change>UI: Fixed incremental layout of Roles</change>
+      <change>Java-Templates: Support for Classifier nested in Enumerations</change>
+   </release>
+
+   <release version="v1.3.6" >
+      <change>Eclipse Indigo SR1 Release</change>
+   </release>
+  
+   <release version="v1.3.5" >
+      <change>UI: Create new types within input fields</change>
+      <change>Core: Added "Getting Started" - tutorials</change>
+      <change>Core: Start-Up screen for UML Lab plug-in installations</change>
+      <change>Linux/Mac OS: Improved dialogs</change>
+   </release>
+
+   <release version="v1.3.4" >
+      <change>UI: Display content assist icon on text fields with code completion</change>
+      <change>UI: Property section for StereotypeApplications</change>
+      <change>UI/OCL: Property section for constraint configuration</change>
+      <change>UI: Improved "Open Type" behavior in the configure class diagram dialog</change>
+      <change>Java-Templates: Round-Trip support for comma separated field declarations</change>
+      <change>PHP-Templates: Improved templates for MySQL</change>
+   </release>
+
+   <release version="v1.3.3" >
+      <change>Support for Eclipse Indigo</change>
+      <change>UML Lab is ready for Java 7</change>
+      <change>Java-Templates: Support for Legacy Annotations in JPA Class Declarations</change>
+      <change>Java-Templates: Fixed some issues with JPA Templates</change>
+      <change>Core: Fixed memory leaks when closing models</change>
+      <change>PHP-Templates: Improved templates for the Zend PHP Framework</change>
+      <change>Round-Trip-Engineering: Improved support of (Java)-Imports</change>
+      <change>Round-Trip-Engineering: Consider input types when comparing source code</change>
+      <change>Round-Trip-Engineering: Improved support for automatic code pretty printing</change>
+   </release>
+
+   <release version="v1.3.2" >
+      <change>PHP Templates: Support for the Zend PHP Framework</change>
+      <change>Java Templates: Improved support for collections</change>
+      <change>Java Templates: Generate code for Enums in standard code style</change>
+      <change>Round-Trip-Engineering: Inform user about actions taken when opening models</change>
+      <change>Reverse-Engineering: Ignore files with unsupported suffixes (eg .png, .jpg)</change>
+      <change>Team support: Preserve associated files across systems, keep checksums for up-to-date check</change>
+      <change>UI: Introduced more/less icons</change>
+   </release>
+
+   <release version="v1.3.1" >
+      <change>RCP Upgrade to Eclipse 3.6.2</change>
+   </release>
+
+   <release version="v1.3.0" >
+      <change>Solved deadlock issues</change>
+      <change>UI: Improved class diagram editor</change>
+      <change>UI: Fixed drag&amp;drop support from the UML Lab tree</change>
+      <change>Code Generation: Improved support for post processing of files (e.g. pretty printing)</change>
+      <change>Round-Trip-Engineering: Fixed issues with source code refactorings</change>
+   </release>
+
+   <release version="v1.2.3" >
+      <change>Basic Support for PHP including MySQL and CakePHP</change>
+      <change>Round-Trip-Engineering: Fixed issues with partial round-trip</change>
+      <change>Round-Trip-Engineering: Fixed issues with type hierarchies</change>
+      <change>Code Generation: Improved performance for large projects</change>
+      <change>UI: Improved performance of diagram operations</change>
+      <change>UI: Better handling of attribute default values</change>
+   </release>
+
+   <!--
+   <release version="v1.2.2" >
+      <change>Round-Trip-Engineering: Fixed issues with renaming classifiers</change>
+      <change>Better auto layout support</change>
+      <change>Performance improvements</change>
+      <change>Downgrade to support Eclipse 3.6.0 platforms</change>
+   </release>
+
+   <release version="v1.2.0" >
+      <change>Reverse Engineering of Java class files and jar dependencies</change>
+      <change>Code generation is two times faster now</change>
+      <change>Upgrade of class diagram layouter: Incremental layout support</change>
+   </release>
+
+   <release version="v1.1.1" >
+      <change>Update Site for integration into an existing Eclipse installation</change>
+      <change>Improved Code Completion in the Class Diagram Editor</change>
+      <change>Route edges after resizing classifiers</change>
+      <change>Better UI for the Add/Remove MetaClass dialog</change>
+      <change>Fixed issue with floating licenses (#100072)</change>
+   </release>
+
+   <release version="v1.1.0" >
+      <change>Support for package diagrams</change>
+      <change>Fixed issues with the diagram layouter</change>
+      <change>Improved Reverse Engineering of legacy code</change>
+   </release>
+
+   <release version="v1.0.0">
+      <change>Official 1.0 release</change>
+      <change>Round-Trip-Engineering<sup>NG</sup></change>
+      <change>UML 2.2 class diagram editor</change>
+      <change>Navigation and model exploration</change>
+      <change>Model-based code validation</change>
+      <change>OCL validation with custom coloring of diagram elements</change>
+      <change>Guided tour</change>
+      <change>Tutorials for template customization using own UML profiles</change>
+      <change>Fully integrated in Eclipse Helios SR1</change>
+      <change>Support for Windows, Linux, Mac OS X architectures (x32 and x64)</change>
+   </release>
+   -->
+
+</changelog>

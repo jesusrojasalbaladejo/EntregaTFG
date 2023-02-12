@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.features"
+      label="Features Feature"
+      version="1.31.0.202212071133"
+      provider-name="%providerName">
+
+   <description>
+      Features Feature
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+   %licenseText 
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="https://platform.yatta.de/update/uml-lab"/>
+   </url>
+
+   <plugin
+         id="com.yattasolutions.features"
+         download-size="274"
+         install-size="561"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.features.eclipse"
+         download-size="48"
+         install-size="108"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.features.emf"
+         download-size="82"
+         install-size="179"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.util"
+         download-size="69"
+         install-size="127"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="de.uni_paderborn.runtimetools"
+         download-size="154"
+         install-size="297"
+         version="1.0.2.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.features.uml"
+         download-size="14"
+         install-size="32"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.features.jdt"
+         download-size="61"
+         install-size="162"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.features.api"
+         download-size="17"
+         install-size="23"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.features"
+         download-size="7"
+         install-size="42"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

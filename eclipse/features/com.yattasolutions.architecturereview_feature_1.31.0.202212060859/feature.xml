@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.architecturereview_feature"
+      label="UML Lab Architecture Review Feature"
+      version="1.31.0.202212060859"
+      provider-name="Yatta Solutions GmbH">
+
+   <description url="https://www.uml-lab.com">
+      UML Lab Architecture Review Feature
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="http://update.uml-lab.com/"/>
+   </url>
+
+   <plugin
+         id="com.yattasolutions.architecturereview.ui"
+         download-size="81"
+         install-size="239"
+         version="1.31.0.202212060758"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.architecturereview.metrics.ui"
+         download-size="102"
+         install-size="272"
+         version="1.31.0.202212060859"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.architecturereview.profile"
+         download-size="48"
+         install-size="374"
+         version="1.31.0.202212060758"/>
+
+</feature>

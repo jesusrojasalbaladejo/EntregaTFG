@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.codegen.reverse"
+      label="UML Lab Reverse Engineering Feature"
+      version="1.31.0.202212071133"
+      provider-name="%providerName">
+
+   <description>
+      UML Lab Reverse Engineering Feature
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+   %licenseText 
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="https://platform.yatta.de/update/uml-lab"/>
+   </url>
+
+   <requires>
+      <import feature="com.yattasolutions.umllab.core" version="1.31.0" match="equivalent"/>
+      <import feature="com.yattasolutions.codegen" version="1.31.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="com.yattasolutions.codegen.reverse"
+         download-size="1597"
+         install-size="4135"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.reverse.oaw"
+         download-size="268"
+         install-size="757"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.reverse.ui"
+         download-size="619"
+         install-size="1148"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.java.reverse"
+         download-size="13"
+         install-size="89"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.runner"
+         download-size="20"
+         install-size="100"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.codegen.reverse.api"
+         download-size="14"
+         install-size="89"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

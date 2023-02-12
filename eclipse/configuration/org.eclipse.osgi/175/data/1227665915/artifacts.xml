@@ -1,0 +1,2517 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\Users\Jesús\Documents\eclipse\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1674513073767'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='251'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.property.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1358'/>
+        <property name='download.size' value='1358'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.databinding.property.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.databinding.property.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.debug.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='21912'/>
+        <property name='download.size' value='21912'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.debug.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.debug.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.jsr296' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='34638'/>
+        <property name='download.size' value='34638'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swing.jsr296_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swing.jsr296_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.editors.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='12593'/>
+        <property name='download.size' value='12593'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.editors.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.editors.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.workbench.texteditor.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='13219'/>
+        <property name='download.size' value='13219'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.workbench.texteditor.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.workbench.texteditor.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.commons-beanutils' version='1.9.4'>
+      <properties size='2'>
+        <property name='artifact.size' value='246918'/>
+        <property name='download.size' value='246918'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.apache.commons.commons-beanutils_1.9.4.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.apache.commons.commons-beanutils_1.9.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.swt.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3064'/>
+        <property name='download.size' value='3064'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.swt.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.swt.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.apt.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='4601'/>
+        <property name='download.size' value='4601'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.apt.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.apt.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.core' version='3.15.100.v20220221-1314'>
+      <properties size='2'>
+        <property name='artifact.size' value='1412226'/>
+        <property name='download.size' value='1412226'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.core_3.15.100.v20220221-1314.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.core_3.15.100.v20220221-1314.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.xmi' version='2.17.0.v20220817-1334'>
+      <properties size='2'>
+        <property name='artifact.size' value='238259'/>
+        <property name='download.size' value='238259'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.17.0.v20220817-1334.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.emf.ecore.xmi_2.17.0.v20220817-1334.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.garbagecollector.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2460'/>
+        <property name='download.size' value='2460'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.garbagecollector.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.garbagecollector.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.annotations.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1582'/>
+        <property name='download.size' value='1582'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.api.tools.annotations.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.api.tools.annotations.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.validation.ui' version='1.2.601.v202007142017'>
+      <properties size='2'>
+        <property name='artifact.size' value='164083'/>
+        <property name='download.size' value='164083'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wst.validation.ui_1.2.601.v202007142017.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wst.validation.ui_1.2.601.v202007142017.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swt' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='952549'/>
+        <property name='download.size' value='952549'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swt_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swt_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.annotation.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1350'/>
+        <property name='download.size' value='1350'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.annotation.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.annotation.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.os.win32' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='99099'/>
+        <property name='download.size' value='99099'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.os.win32_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.os.win32_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.themes.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1347'/>
+        <property name='download.size' value='1347'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.themes.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.themes.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.common' version='2.27.0.v20220817-1401'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.emf.common_2.27.0.v20220817-1401/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.emf.common_2.27.0.v20220817-1401'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filebuffers.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3999'/>
+        <property name='download.size' value='3999'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.filebuffers.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.filebuffers.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.common' version='2.26.0.v20220817-1401'>
+      <properties size='2'>
+        <property name='artifact.size' value='378571'/>
+        <property name='download.size' value='378571'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.emf.common_2.26.0.v20220817-1401.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.emf.common_2.26.0.v20220817-1401.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.build' version='3.11.100.v20210916-0743'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.build_3.11.100.v20210916-0743/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.build_3.11.100.v20210916-0743'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.swt.win32.win32.x86_64.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1445'/>
+        <property name='download.size' value='1445'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.core' version='1.2.600.v202207121749'>
+      <properties size='2'>
+        <property name='artifact.size' value='830689'/>
+        <property name='download.size' value='830689'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wst.xml.core_1.2.600.v202207121749.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wst.xml.core_1.2.600.v202207121749.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.externaltools.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='4074'/>
+        <property name='download.size' value='4074'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.externaltools.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.externaltools.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.xwt' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='1433079'/>
+        <property name='download.size' value='1433079'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.xwt_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.xwt_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.intro.universal.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='8985'/>
+        <property name='download.size' value='8985'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.intro.universal.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.intro.universal.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.core.java.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.core.java.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.core.java.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.FormLayout.lib' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='424212'/>
+        <property name='download.size' value='424212'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swing.FormLayout.lib_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swing.FormLayout.lib_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.junit.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3958'/>
+        <property name='download.size' value='3958'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.junit.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.junit.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.artifact.repository.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='5580'/>
+        <property name='download.size' value='5580'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.artifact.repository.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.artifact.repository.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2814'/>
+        <property name='download.size' value='2814'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.debug.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='33133'/>
+        <property name='download.size' value='33133'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.debug.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.debug.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.rcp.SWT_AWT' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='27332'/>
+        <property name='download.size' value='27332'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.rcp.SWT_AWT_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.rcp.SWT_AWT_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director.app.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2888'/>
+        <property name='download.size' value='2888'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.director.app.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.director.app.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xml.resolver' version='1.2.0.v20220715-1206'>
+      <properties size='2'>
+        <property name='artifact.size' value='104128'/>
+        <property name='download.size' value='104128'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.apache.xml.resolver_1.2.0.v20220715-1206.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.apache.xml.resolver_1.2.0.v20220715-1206.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.ui' version='1.2.700.v202208280234'>
+      <properties size='2'>
+        <property name='artifact.size' value='1055198'/>
+        <property name='download.size' value='1055198'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wst.xml.ui_1.2.700.v202208280234.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wst.xml.ui_1.2.700.v202208280234.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ua.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='13655'/>
+        <property name='download.size' value='13655'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ua.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ua.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.objectweb.asm.tree' version='9.2.0.v20210813-1119'>
+      <properties size='2'>
+        <property name='artifact.size' value='66070'/>
+        <property name='download.size' value='66070'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.objectweb.asm.tree_9.2.0.v20210813-1119.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.objectweb.asm.tree_9.2.0.v20210813-1119.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2612'/>
+        <property name='download.size' value='2612'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.core.ui' version='1.10.0.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='59162'/>
+        <property name='download.size' value='59162'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.core.ui_1.10.0.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.core.ui_1.10.0.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator.manipulator.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1367'/>
+        <property name='download.size' value='1367'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.simpleconfigurator.manipulator.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.simpleconfigurator.manipulator.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1357'/>
+        <property name='download.size' value='1357'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.frameworkadmin.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.frameworkadmin.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.runtime' version='3.7.300.v20211215-1038'>
+      <properties size='2'>
+        <property name='artifact.size' value='220392'/>
+        <property name='download.size' value='220392'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.runtime_3.7.300.v20211215-1038.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.runtime_3.7.300.v20211215-1038.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.core.java' version='1.9.2.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='2366711'/>
+        <property name='download.size' value='2366711'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.core.java_1.9.2.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.core.java_1.9.2.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.rcp.nebula' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='153375'/>
+        <property name='download.size' value='153375'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.rcp.nebula_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.rcp.nebula_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.forms.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2371'/>
+        <property name='download.size' value='2371'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.forms.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.forms.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.sse.ui' version='1.7.500.v202207121749'>
+      <properties size='2'>
+        <property name='artifact.size' value='1106356'/>
+        <property name='download.size' value='1106356'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wst.sse.ui_1.7.500.v202207121749.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wst.sse.ui_1.7.500.v202207121749.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2408'/>
+        <property name='download.size' value='2408'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.compare.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.compare.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ds1_2.lib' version='1.0.500.v20210209-1250'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ds1_2.lib_1.0.500.v20210209-1250/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ds1_2.lib_1.0.500.v20210209-1250'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.compatibility.state.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2975'/>
+        <property name='download.size' value='2975'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.osgi.compatibility.state.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.osgi.compatibility.state.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin.equinox.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2579'/>
+        <property name='download.size' value='2579'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.frameworkadmin.equinox.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.frameworkadmin.equinox.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.compiler.tool.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1385'/>
+        <property name='download.size' value='1385'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.compiler.tool.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.compiler.tool.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.core.lib' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='3583723'/>
+        <property name='download.size' value='3583723'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.core.lib_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.core.lib_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='10302'/>
+        <property name='download.size' value='10302'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.api.tools.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.api.tools.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.launching.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='6813'/>
+        <property name='download.size' value='6813'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.launching.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.launching.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.junit.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='8916'/>
+        <property name='download.size' value='8916'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.junit.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.junit.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2669'/>
+        <property name='download.size' value='2669'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.databinding.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.databinding.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.swing.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.swing.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.swing.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.rcp.databinding' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='641695'/>
+        <property name='download.size' value='641695'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.rcp.databinding_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.rcp.databinding_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.os' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='17454'/>
+        <property name='download.size' value='17454'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.os_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.os_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.ui' version='1.2.200.v202207121617'>
+      <properties size='2'>
+        <property name='artifact.size' value='155848'/>
+        <property name='download.size' value='155848'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wst.common.ui_1.2.200.v202207121617.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wst.common.ui_1.2.200.v202207121617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.project.facet.core' version='1.4.402.v202111212041'>
+      <properties size='2'>
+        <property name='artifact.size' value='376836'/>
+        <property name='download.size' value='376836'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wst.common.project.facet.core_1.4.402.v202111212041.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wst.common.project.facet.core_1.4.402.v202111212041.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='5329'/>
+        <property name='download.size' value='5329'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.osgi.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.osgi.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ua.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1440'/>
+        <property name='download.size' value='1440'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ua.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ua.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.junit.runtime.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1388'/>
+        <property name='download.size' value='1388'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.junit.runtime.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.junit.runtime.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ds.annotations' version='1.2.300.v20220210-1335'>
+      <properties size='2'>
+        <property name='artifact.size' value='148845'/>
+        <property name='download.size' value='148845'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ds.annotations_1.2.300.v20220210-1335.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ds.annotations_1.2.300.v20220210-1335.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.tools.services' version='4.9.0.v20210427-1802'>
+      <properties size='2'>
+        <property name='artifact.size' value='32715'/>
+        <property name='download.size' value='32715'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.tools.services_4.9.0.v20210427-1802.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.tools.services_4.9.0.v20210427-1802.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.eclipse.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3927'/>
+        <property name='download.size' value='3927'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.touchpoint.eclipse.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.touchpoint.eclipse.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.base.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3753'/>
+        <property name='download.size' value='3753'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.help.base.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.help.base.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.pde' version='3.14.1100.v20220308-0310'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.pde_3.14.1100.v20220308-0310/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.pde_3.14.1100.v20220308-0310'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.guava.failureaccess' version='1.0.1'>
+      <properties size='2'>
+        <property name='artifact.size' value='4617'/>
+        <property name='download.size' value='4617'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/com.google.guava.failureaccess_1.0.1.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\com.google.guava.failureaccess_1.0.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ds.lib' version='1.1.500.v20210209-1250'>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ds.lib_1.1.500.v20210209-1250/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ds.lib_1.1.500.v20210209-1250'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.services.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1349'/>
+        <property name='download.size' value='1349'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.osgi.services.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.osgi.services.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui.importexport.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2845'/>
+        <property name='download.size' value='2845'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.ui.importexport.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.ui.importexport.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.rcp.doc.user.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.rcp.doc.user.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.rcp.doc.user.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.babel.nls_eclipse_es' version='4.5.0.v20151128060001'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.babel.nls_eclipse_es_4.5.0.v20151128060001/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.babel.nls_eclipse_es_4.5.0.v20151128060001'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ant.launching.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='7956'/>
+        <property name='download.size' value='7956'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ant.launching.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ant.launching.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.discovery.compatibility.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2819'/>
+        <property name='download.size' value='2819'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.discovery.compatibility.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.discovery.compatibility.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.intro.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3641'/>
+        <property name='download.size' value='3641'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.intro.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.intro.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ua.core' version='1.2.300.v20211004-0555'>
+      <properties size='2'>
+        <property name='artifact.size' value='115288'/>
+        <property name='download.size' value='115288'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ua.core_1.2.300.v20211004-0555.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ua.core_1.2.300.v20211004-0555.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde' version='3.13.1800.v20220308-0310'>
+      <properties size='2'>
+        <property name='artifact.size' value='69370'/>
+        <property name='download.size' value='69370'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde_3.13.1800.v20220308-0310.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde_3.13.1800.v20220308-0310.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.debug.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='7184'/>
+        <property name='download.size' value='7184'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.debug.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.debug.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.webapp.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='4569'/>
+        <property name='download.size' value='4569'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.help.webapp.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.help.webapp.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.rcp.swing2swt' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='70985'/>
+        <property name='download.size' value='70985'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.rcp.swing2swt_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.rcp.swing2swt_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.validation' version='1.2.801.v202007142017'>
+      <properties size='2'>
+        <property name='artifact.size' value='429517'/>
+        <property name='download.size' value='429517'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wst.validation_1.2.801.v202007142017.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wst.validation_1.2.801.v202007142017.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='38187'/>
+        <property name='download.size' value='38187'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jsch.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3777'/>
+        <property name='download.size' value='3777'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jsch.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jsch.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ui.templates' version='3.7.500.v20220202-1226'>
+      <properties size='2'>
+        <property name='artifact.size' value='593235'/>
+        <property name='download.size' value='593235'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ui.templates_3.7.500.v20220202-1226.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ui.templates_3.7.500.v20220202-1226.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.metadata.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2814'/>
+        <property name='download.size' value='2814'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.metadata.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.metadata.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.repository.tools.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='4751'/>
+        <property name='download.size' value='4751'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.repository.tools.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.repository.tools.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.directorywatcher.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2905'/>
+        <property name='download.size' value='2905'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.directorywatcher.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.directorywatcher.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.ui' version='1.2.600.v20220210-1335'>
+      <properties size='2'>
+        <property name='artifact.size' value='526716'/>
+        <property name='download.size' value='526716'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.api.tools.ui_1.2.600.v20220210-1335.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.api.tools.ui_1.2.600.v20220210-1335.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ds.ui' version='1.2.200.v20211223-1606'>
+      <properties size='2'>
+        <property name='artifact.size' value='210060'/>
+        <property name='download.size' value='210060'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ds.ui_1.2.200.v20211223-1606.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ds.ui_1.2.200.v20211223-1606.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.genericeditor.extension' version='1.1.200.v20211215-1038'>
+      <properties size='2'>
+        <property name='artifact.size' value='89885'/>
+        <property name='download.size' value='89885'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.genericeditor.extension_1.1.200.v20211215-1038.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.genericeditor.extension_1.1.200.v20211215-1038.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.layout.group' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='474865'/>
+        <property name='download.size' value='474865'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.layout.group_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.layout.group_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.ide.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='31860'/>
+        <property name='download.size' value='31860'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.ide.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.ide.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.variables.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2532'/>
+        <property name='download.size' value='2532'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.variables.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.variables.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.ecore' version='2.29.0.v20220817-1401'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.emf.ecore_2.29.0.v20220817-1401/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.emf.ecore_2.29.0.v20220817-1401'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.views.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3162'/>
+        <property name='download.size' value='3162'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.views.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.views.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='23462'/>
+        <property name='download.size' value='23462'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='154429'/>
+        <property name='download.size' value='154429'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.browser.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3031'/>
+        <property name='download.size' value='3031'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.browser.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.browser.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core.manipulation.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3985'/>
+        <property name='download.size' value='3985'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.core.manipulation.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.core.manipulation.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.spy.preferences' version='0.12.200.v20211229-0835'>
+      <properties size='2'>
+        <property name='artifact.size' value='60953'/>
+        <property name='download.size' value='60953'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.spy.preferences_0.12.200.v20211229-0835.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.spy.preferences_0.12.200.v20211229-0835.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.swt.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3264'/>
+        <property name='download.size' value='3264'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.workbench.swt.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.workbench.swt.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ds.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2651'/>
+        <property name='download.size' value='2651'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ds.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ds.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.views.properties.tabbed.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3118'/>
+        <property name='download.size' value='3118'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.views.properties.tabbed.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.views.properties.tabbed.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='13890'/>
+        <property name='download.size' value='13890'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.compare.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.compare.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.widgets.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1350'/>
+        <property name='download.size' value='1350'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.widgets.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.widgets.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ltk.core.refactoring.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='5429'/>
+        <property name='download.size' value='5429'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ltk.core.refactoring.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ltk.core.refactoring.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.extensionlocation.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2456'/>
+        <property name='download.size' value='2456'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.extensionlocation.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.extensionlocation.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ua.ui' version='1.2.300.v20211215-1133'>
+      <properties size='2'>
+        <property name='artifact.size' value='461516'/>
+        <property name='download.size' value='461516'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ua.ui_1.2.300.v20211215-1133.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ua.ui_1.2.300.v20211215-1133.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.rcp.databinding.emf' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='151656'/>
+        <property name='download.size' value='151656'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.rcp.databinding.emf_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.rcp.databinding.emf_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.spy.bundle' version='0.12.100.v20220125-1245'>
+      <properties size='2'>
+        <property name='artifact.size' value='44012'/>
+        <property name='download.size' value='44012'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.spy.bundle_0.12.100.v20220125-1245.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.spy.bundle_0.12.100.v20220125-1245.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.externaltools.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='8740'/>
+        <property name='download.size' value='8740'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.externaltools.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.externaltools.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.publisher.eclipse.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3371'/>
+        <property name='download.size' value='3371'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.publisher.eclipse.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.publisher.eclipse.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.beans.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1394'/>
+        <property name='download.size' value='1394'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.databinding.beans.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.databinding.beans.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ant.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='22547'/>
+        <property name='download.size' value='22547'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ant.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ant.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1359'/>
+        <property name='download.size' value='1359'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.simpleconfigurator.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.simpleconfigurator.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.runtime.lib' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='490268'/>
+        <property name='download.size' value='490268'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.runtime.lib_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.runtime.lib_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.navigator.resources.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3498'/>
+        <property name='download.size' value='3498'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.navigator.resources.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.navigator.resources.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.dialogs.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2408'/>
+        <property name='download.size' value='2408'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.dialogs.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.dialogs.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.commands.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1353'/>
+        <property name='download.size' value='1353'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.core.commands.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.core.commands.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.win32.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2682'/>
+        <property name='download.size' value='2682'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.win32.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.win32.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.core.ui.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.core.ui.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.core.ui.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1350'/>
+        <property name='download.size' value='1350'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.css.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.css.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.spy.css' version='0.12.200.v20211229-0835'>
+      <properties size='2'>
+        <property name='artifact.size' value='52443'/>
+        <property name='download.size' value='52443'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.spy.css_0.12.200.v20211229-0835.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.spy.css_0.12.200.v20211229-0835.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.addons.swt.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2576'/>
+        <property name='download.size' value='2576'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.workbench.addons.swt.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.workbench.addons.swt.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.platform.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2680'/>
+        <property name='download.size' value='2680'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.platform.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.platform.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.FormLayout' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='318610'/>
+        <property name='download.size' value='318610'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swing.FormLayout_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swing.FormLayout_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3613'/>
+        <property name='download.size' value='3613'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem.win32.x86_64.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1407'/>
+        <property name='download.size' value='1407'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.filesystem.win32.x86_64.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.filesystem.win32.x86_64.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2807'/>
+        <property name='download.size' value='2807'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.guava' version='31.1.0.jre'>
+      <properties size='2'>
+        <property name='artifact.size' value='2959479'/>
+        <property name='download.size' value='2959479'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/com.google.guava_31.1.0.jre.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\com.google.guava_31.1.0.jre.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.rcp.SWT_AWT_support' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.rcp.SWT_AWT_support_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.rcp.SWT_AWT_support_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore' version='2.28.0.v20220817-1401'>
+      <properties size='2'>
+        <property name='artifact.size' value='1325325'/>
+        <property name='download.size' value='1325325'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.emf.ecore_2.28.0.v20220817-1401.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.emf.ecore_2.28.0.v20220817-1401.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.trace.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2337'/>
+        <property name='download.size' value='2337'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.trace.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.trace.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.trace' version='1.2.100.v20211215-1038'>
+      <properties size='2'>
+        <property name='artifact.size' value='60834'/>
+        <property name='download.size' value='60834'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.trace_1.2.100.v20211215-1038.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.trace_1.2.100.v20211215-1038.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.runtime.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3319'/>
+        <property name='download.size' value='3319'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.runtime.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.runtime.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tools.layout.spy' version='1.1.0.v20210110-1247'>
+      <properties size='2'>
+        <property name='artifact.size' value='44323'/>
+        <property name='download.size' value='44323'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.tools.layout.spy_1.1.0.v20210110-1247.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.tools.layout.spy_1.1.0.v20210110-1247.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.launching.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3146'/>
+        <property name='download.size' value='3146'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.launching.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.launching.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.objectweb.asm' version='9.2.0.v20210813-1119'>
+      <properties size='2'>
+        <property name='artifact.size' value='133561'/>
+        <property name='download.size' value='133561'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.objectweb.asm_9.2.0.v20210813-1119.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.objectweb.asm_9.2.0.v20210813-1119.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.jarprocessor.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1357'/>
+        <property name='download.size' value='1357'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.jarprocessor.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.jarprocessor.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.junit.runtime.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2888'/>
+        <property name='download.size' value='2888'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.junit.runtime.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.junit.runtime.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.java6' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='91975'/>
+        <property name='download.size' value='91975'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swing.java6_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swing.java6_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.text.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='4259'/>
+        <property name='download.size' value='4259'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.text.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.text.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.runtime' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='11498'/>
+        <property name='download.size' value='11498'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.runtime_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.runtime_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare.win32.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3070'/>
+        <property name='download.size' value='3070'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.compare.win32.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.compare.win32.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.core.xml' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='522943'/>
+        <property name='download.size' value='522943'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.core.xml_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.core.xml_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='1515541'/>
+        <property name='download.size' value='1515541'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swing_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swing_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1353'/>
+        <property name='download.size' value='1353'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.workbench.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.workbench.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface.text.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='11443'/>
+        <property name='download.size' value='11443'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jface.text.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jface.text.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.rcp.doc.user' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='10091904'/>
+        <property name='download.size' value='10091904'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.rcp.doc.user_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.rcp.doc.user_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swt.widgets.baseline' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='53652'/>
+        <property name='download.size' value='53652'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swt.widgets.baseline_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swt.widgets.baseline_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2243'/>
+        <property name='download.size' value='2243'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.net.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.net.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.core.xml.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.core.xml.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.core.xml.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.databinding.edit' version='1.7.0.v20210113-0340'>
+      <properties size='2'>
+        <property name='artifact.size' value='53834'/>
+        <property name='download.size' value='53834'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.emf.databinding.edit_1.7.0.v20210113-0340.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.emf.databinding.edit_1.7.0.v20210113-0340.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.core' version='1.11.0.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='2108123'/>
+        <property name='download.size' value='2108123'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.core_1.11.0.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.core_1.11.0.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.di.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1347'/>
+        <property name='download.size' value='1347'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.di.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.di.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.engine.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2851'/>
+        <property name='download.size' value='2851'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.engine.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.engine.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jsch.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2441'/>
+        <property name='download.size' value='2441'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jsch.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jsch.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.discovery.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3081'/>
+        <property name='download.size' value='3081'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.discovery.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.discovery.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ltk.ui.refactoring.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='7996'/>
+        <property name='download.size' value='7996'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ltk.ui.refactoring.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ltk.ui.refactoring.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1383'/>
+        <property name='download.size' value='1383'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.launcher.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.launcher.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.core.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.core.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.core.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.digester' version='3.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='241614'/>
+        <property name='download.size' value='241614'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.apache.commons.digester_3.2.0.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.apache.commons.digester_3.2.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.swt.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.swt.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.swt.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.MigLayout' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='305543'/>
+        <property name='download.size' value='305543'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swing.MigLayout_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swing.MigLayout_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.spy.context' version='1.0.200.v20220218-1824'>
+      <properties size='2'>
+        <property name='artifact.size' value='91080'/>
+        <property name='download.size' value='91080'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.spy.context_1.0.200.v20220218-1824.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.spy.context_1.0.200.v20220218-1824.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.sse.core' version='1.2.800.v202207121749'>
+      <properties size='2'>
+        <property name='artifact.size' value='490286'/>
+        <property name='download.size' value='490286'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wst.sse.core_1.2.800.v202207121749.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wst.sse.core_1.2.800.v202207121749.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.emf.xpath.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1576'/>
+        <property name='download.size' value='1576'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.emf.xpath.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.emf.xpath.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2672'/>
+        <property name='download.size' value='2672'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.director.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.director.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.compiler.apt.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1382'/>
+        <property name='download.size' value='1382'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.compiler.apt.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.compiler.apt.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.reconciler.dropins.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2639'/>
+        <property name='download.size' value='2639'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.reconciler.dropins.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.reconciler.dropins.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.navigator.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3881'/>
+        <property name='download.size' value='3881'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.navigator.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.navigator.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.rcp.databinding.xwt' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='112913'/>
+        <property name='download.size' value='112913'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.rcp.databinding.xwt_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.rcp.databinding.xwt_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.doc.user' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='4460161'/>
+        <property name='download.size' value='4460161'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.doc.user_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.doc.user_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2917'/>
+        <property name='download.size' value='2917'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.filesystem.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.filesystem.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui.sdk.scheduler.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='4356'/>
+        <property name='download.size' value='4356'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.ui.sdk.scheduler.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.ui.sdk.scheduler.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.junit.runtime' version='3.6.100.v20211112-1151'>
+      <properties size='2'>
+        <property name='artifact.size' value='22689'/>
+        <property name='download.size' value='22689'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.junit.runtime_3.6.100.v20211112-1151.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.junit.runtime_3.6.100.v20211112-1151.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.ide.application.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1616'/>
+        <property name='download.size' value='1616'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.ide.application.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.ide.application.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools' version='1.2.800.v20220204-0559'>
+      <properties size='2'>
+        <property name='artifact.size' value='966498'/>
+        <property name='download.size' value='966498'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.api.tools_1.2.800.v20220204-0559.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.api.tools_1.2.800.v20220204-0559.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='5448'/>
+        <property name='download.size' value='5448'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.observable.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1394'/>
+        <property name='download.size' value='1394'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.databinding.observable.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.databinding.observable.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.natives.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2823'/>
+        <property name='download.size' value='2823'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.touchpoint.natives.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.touchpoint.natives.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.renderers.swt.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3509'/>
+        <property name='download.size' value='3509'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.workbench.renderers.swt.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.workbench.renderers.swt.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.apt.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3834'/>
+        <property name='download.size' value='3834'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.apt.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.apt.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.spy.model' version='0.12.200.v20211229-0835'>
+      <properties size='2'>
+        <property name='artifact.size' value='16520'/>
+        <property name='download.size' value='16520'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.spy.model_0.12.200.v20211229-0835.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.spy.model_0.12.200.v20211229-0835.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.win32.x86_64.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1427'/>
+        <property name='download.size' value='1427'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.net.win32.x86_64.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.net.win32.x86_64.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.apt.pluggable.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1428'/>
+        <property name='download.size' value='1428'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.apt.pluggable.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.apt.pluggable.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.search.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='8271'/>
+        <property name='download.size' value='8271'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.search.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.search.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.swt.theme.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1378'/>
+        <property name='download.size' value='1378'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.css.swt.theme.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.css.swt.theme.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.operations.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2491'/>
+        <property name='download.size' value='2491'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.operations.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.operations.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.views.log.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3558'/>
+        <property name='download.size' value='3558'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.views.log.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.views.log.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.monitoring.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2468'/>
+        <property name='download.size' value='2468'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.monitoring.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.monitoring.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.win32.win32.x86_64.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1453'/>
+        <property name='download.size' value='1453'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.launcher.win32.win32.x86_64.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_64.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.net.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2580'/>
+        <property name='download.size' value='2580'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.net.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.net.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.repository.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3826'/>
+        <property name='download.size' value='3826'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.repository.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.repository.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1512'/>
+        <property name='download.size' value='1512'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.help.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.help.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.core.databinding.xml' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='33984'/>
+        <property name='download.size' value='33984'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.core.databinding.xml_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.core.databinding.xml_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.transport.ecf.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2619'/>
+        <property name='download.size' value='2619'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.transport.ecf.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.transport.ecf.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.frameworks.ui' version='1.2.401.v202007142017'>
+      <properties size='2'>
+        <property name='artifact.size' value='157693'/>
+        <property name='download.size' value='157693'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wst.common.frameworks.ui_1.2.401.v202007142017.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wst.common.frameworks.ui_1.2.401.v202007142017.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.MigLayout.lib' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='291372'/>
+        <property name='download.size' value='291372'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swing.MigLayout.lib_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swing.MigLayout.lib_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.layout.group.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.layout.group.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.layout.group.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.model.workbench.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1356'/>
+        <property name='download.size' value='1356'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.model.workbench.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.model.workbench.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='5595'/>
+        <property name='download.size' value='5595'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jface.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jface.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.console.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2435'/>
+        <property name='download.size' value='2435'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.console.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.console.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='8349'/>
+        <property name='download.size' value='8349'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.api.tools.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.api.tools.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ds.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2394'/>
+        <property name='download.size' value='2394'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ds.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ds.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ds.core' version='1.2.400.v20211215-1038'>
+      <properties size='2'>
+        <property name='artifact.size' value='60245'/>
+        <property name='download.size' value='60245'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ds.core_1.2.400.v20211215-1038.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ds.core_1.2.400.v20211215-1038.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='13055'/>
+        <property name='download.size' value='13055'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.team.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.team.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.cheatsheets.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='5811'/>
+        <property name='download.size' value='5811'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.cheatsheets.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.cheatsheets.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.console.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3380'/>
+        <property name='download.size' value='3380'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.console.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.console.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.doc.user' version='3.14.1500.v20220302-1713'>
+      <properties size='2'>
+        <property name='artifact.size' value='7251956'/>
+        <property name='download.size' value='7251956'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.doc.user_3.14.1500.v20220302-1713.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.doc.user_3.14.1500.v20220302-1713.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.core.databinding' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='319142'/>
+        <property name='download.size' value='319142'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.core.databinding_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.core.databinding_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.publisher.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2590'/>
+        <property name='download.size' value='2590'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.publisher.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.publisher.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.databinding' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='333261'/>
+        <property name='download.size' value='333261'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swing.databinding_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swing.databinding_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.rcp.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.rcp.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.rcp.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.annotations' version='1.1.400.v20190929-1236'>
+      <properties size='2'>
+        <property name='artifact.size' value='11735'/>
+        <property name='download.size' value='11735'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.api.tools.annotations_1.1.400.v20190929-1236.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.api.tools.annotations_1.1.400.v20190929-1236.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.rcp' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='1553105'/>
+        <property name='download.size' value='1553105'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.rcp_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.rcp_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.bindings.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1352'/>
+        <property name='download.size' value='1352'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.bindings.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.bindings.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ui' version='3.13.400.v20220215-1440'>
+      <properties size='2'>
+        <property name='artifact.size' value='4764239'/>
+        <property name='download.size' value='4764239'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ui_3.13.400.v20220215-1440.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ui_3.13.400.v20220215-1440.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.launching' version='3.9.600.v20220214-1856'>
+      <properties size='2'>
+        <property name='artifact.size' value='137621'/>
+        <property name='download.size' value='137621'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.launching_3.9.600.v20220214-1856.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.launching_3.9.600.v20220214-1856.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.debug.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='29317'/>
+        <property name='download.size' value='29317'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.debug.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.debug.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.doc.user.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.doc.user.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.doc.user.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface.databinding.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1381'/>
+        <property name='download.size' value='1381'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jface.databinding.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jface.databinding.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.commands.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1367'/>
+        <property name='download.size' value='1367'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.commands.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.commands.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wb.swing.doc.user' version='1.9.1.202208311516'>
+      <properties size='2'>
+        <property name='artifact.size' value='8368759'/>
+        <property name='download.size' value='8368759'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.wb.swing.doc.user_1.9.1.202208311516.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.wb.swing.doc.user_1.9.1.202208311516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.xwt.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.xwt.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.xwt.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.swt.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1380'/>
+        <property name='download.size' value='1380'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.css.swt.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.css.swt.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.util.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1346'/>
+        <property name='download.size' value='1346'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.osgi.util.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.osgi.util.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.updatechecker.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1358'/>
+        <property name='download.size' value='1358'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.updatechecker.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.updatechecker.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ant.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='4741'/>
+        <property name='download.size' value='4741'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ant.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ant.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.resources.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='9303'/>
+        <property name='download.size' value='9303'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.core.resources.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.core.resources.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui.sdk.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2746'/>
+        <property name='download.size' value='2746'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.ui.sdk.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.ui.sdk.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.databinding' version='1.6.0.v20220517-0824'>
+      <properties size='2'>
+        <property name='artifact.size' value='95060'/>
+        <property name='download.size' value='95060'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.emf.databinding_1.6.0.v20220517-0824.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.emf.databinding_1.6.0.v20220517-0824.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui.discovery.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3960'/>
+        <property name='download.size' value='3960'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.ui.discovery.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.ui.discovery.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.metadata.repository.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2638'/>
+        <property name='download.size' value='2638'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.metadata.repository.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.metadata.repository.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.ui.templates.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='5801'/>
+        <property name='download.size' value='5801'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.ui.templates.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.ui.templates.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.ui.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='5645'/>
+        <property name='download.size' value='5645'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.help.ui.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.help.ui.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='4451'/>
+        <property name='download.size' value='4451'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.team.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.team.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.junit4.runtime.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1413'/>
+        <property name='download.size' value='1413'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.jdt.junit4.runtime.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.jdt.junit4.runtime.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wb.swing.doc.user.feature' version='1.10.0.202208311516'>
+      <properties size='1'>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/features/org.eclipse.wb.swing.doc.user.feature_1.10.0.202208311516/'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\features\org.eclipse.wb.swing.doc.user.feature_1.10.0.202208311516'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.spy.core' version='1.0.100.v20211229-0835'>
+      <properties size='2'>
+        <property name='artifact.size' value='23512'/>
+        <property name='download.size' value='23512'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.spy.core_1.0.100.v20211229-0835.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.spy.core_1.0.100.v20211229-0835.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench3.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='1353'/>
+        <property name='download.size' value='1353'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.workbench3.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.workbench3.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.core.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='8744'/>
+        <property name='download.size' value='8744'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.pde.core.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.pde.core.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.tools.emf.ui' version='4.7.300.v20220420-0901'>
+      <properties size='2'>
+        <property name='artifact.size' value='1500681'/>
+        <property name='download.size' value='1500681'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.tools.emf.ui_4.7.300.v20220420-0901.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.tools.emf.ui_4.7.300.v20220420-0901.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.services.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2444'/>
+        <property name='download.size' value='2444'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.e4.ui.services.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.e4.ui.services.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.workbench.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='26809'/>
+        <property name='download.size' value='26809'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.ui.workbench.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.ui.workbench.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.update.configurator.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='3408'/>
+        <property name='download.size' value='3408'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.update.configurator.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.update.configurator.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.updatesite.nl_es' version='4.5.0.v20151128060001'>
+      <properties size='2'>
+        <property name='artifact.size' value='2789'/>
+        <property name='download.size' value='2789'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Users/Jesús/Documents/eclipse/plugins/org.eclipse.equinox.p2.updatesite.nl_es_4.5.0.v20151128060001.jar'/>
+        <property name='file.name' value='C:\Users\Jesús\Documents\eclipse\plugins\org.eclipse.equinox.p2.updatesite.nl_es_4.5.0.v20151128060001.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.xpand.sdk.patch"
+      label="Xpand (2.2.0) SDK Patches for UML Lab"
+      version="1.17.220.201910040910"
+      provider-name="Yatta Solutions GmbH">
+
+   <description url="http://www.eclipse.org/modeling/m2t">
+      Xpand SDK
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      %copyright
+   </copyright>
+
+   <license url="epl-v10.html">
+      %license
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="http://update.uml-lab.com/"/>
+   </url>
+
+   <includes
+         id="com.yattasolutions.xpand.patch"
+         version="1.17.220.201910040910"/>
+
+   <includes
+         id="com.yattasolutions.xtend.patch"
+         version="1.17.220.201910040910"/>
+
+   <includes
+         id="com.yattasolutions.xtend.typesystem.emf.patch"
+         version="1.17.220.201910040910"/>
+
+   <includes
+         id="com.yattasolutions.xtend.typesystem.uml2.patch"
+         version="1.17.220.201910040910"/>
+
+   <includes
+         id="com.yattasolutions.xtend.ui.patch"
+         version="1.17.220.201910040910"/>
+
+   <includes
+         id="com.yattasolutions.xpand.ui.patch"
+         version="1.17.220.201910040910"/>
+
+   <requires>
+      <import feature="org.eclipse.xpand" version="2.2.0.v201605260315" match="perfect"/>
+      <import feature="org.eclipse.xpand.ui" version="2.2.0.v201605260315" match="perfect"/>
+      <import feature="org.eclipse.xtend" version="2.2.0.v201605260315" match="perfect"/>
+      <import feature="org.eclipse.xtend.typesystem.emf" version="2.2.0.v201605260315" match="perfect"/>
+      <import feature="org.eclipse.xtend.typesystem.uml2" version="2.2.0.v201605260315" match="perfect"/>
+      <import feature="org.eclipse.xtend.ui" version="2.2.0.v201605260315" match="perfect"/>
+   </requires>
+
+</feature>

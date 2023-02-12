@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.diagrams.core"
+      label="UML Lab Diagram Base Feature"
+      version="1.31.0.202212071133"
+      provider-name="%providerName">
+
+   <description>
+      UML Lab Diagram Base Feature
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+   %licenseText 
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="https://platform.yatta.de/update/uml-lab"/>
+   </url>
+
+   <requires>
+      <import feature="com.yattasolutions.umllab.core" version="1.31.0" match="equivalent"/>
+      <import feature="com.yattasolutions.platform.marketplace.client.feature" version="2.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.yattasolutions.diagrams.mapping"
+         download-size="57"
+         install-size="170"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.diagrams.layout"
+         download-size="57"
+         install-size="169"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.diagrams.layout.gef.yFiles"
+         download-size="2017"
+         install-size="2319"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.diagrams.common"
+         download-size="31"
+         install-size="108"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.diagrams.editor"
+         download-size="1100"
+         install-size="2367"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

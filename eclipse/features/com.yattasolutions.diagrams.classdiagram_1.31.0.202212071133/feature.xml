@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.diagrams.classdiagram"
+      label="UML Lab Class Diagrams"
+      version="1.31.0.202212071133"
+      provider-name="%providerName">
+
+   <description>
+      UML Lab Class Diagrams
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+   %licenseText 
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="https://platform.yatta.de/update/uml-lab"/>
+   </url>
+
+   <includes
+         id="com.yattasolutions.diagrams.core"
+         version="1.31.0.202212071133"/>
+
+   <requires>
+      <import feature="com.yattasolutions.umllab.core" version="1.31.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="com.yattasolutions.diagrams.classdiagram"
+         download-size="190"
+         install-size="558"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.diagrams.classdiagram.gef"
+         download-size="954"
+         install-size="2180"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.diagrams.classdiagram.api"
+         download-size="12"
+         install-size="82"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

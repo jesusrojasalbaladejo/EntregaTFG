@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.qvto"
+      label="UML Lab QVTo Transformation support"
+      version="1.31.0.202212071133"
+      provider-name="%providerName">
+
+   <description>
+      UML Lab QVTo Transformation support
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+   %licenseText 
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="https://platform.yatta.de/update/uml-lab"/>
+   </url>
+
+   <requires>
+      <import feature="com.yattasolutions.umllab.core" version="1.31.0" match="equivalent"/>
+      <import feature="org.eclipse.m2m.qvt.oml" version="3.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2m.qvt.oml.runtime" version="2.1.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2m.qvt.oml.editor" version="2.1.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2m.qvt.oml.examples" version="2.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2m.qvt.oml.doc" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2m.qvt.oml.ui" version="2.1.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.yattasolutions.qvto.ui"
+         download-size="14"
+         install-size="81"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.qvto"
+         download-size="13"
+         install-size="89"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

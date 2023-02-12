@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.patches.xpand"
+      label="Xpand (2.2.0) Patches for UML Lab"
+      version="1.17.220.201910040910"
+      provider-name="Yatta Solutions GmbH">
+
+   <description>
+      Xpand patches for Eclipse projects required by UML Lab.
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright (c) 2010 Yatta Solutions and others.
+All rights reserved.   This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+   </copyright>
+
+   <license url="epl-v10.html">
+      %license
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="http://update.uml-lab.com/"/>
+   </url>
+
+   <includes
+         id="com.yattasolutions.xpand.sdk.patch"
+         version="1.17.220.201910040910"/>
+
+   <requires>
+      <import feature="org.eclipse.rcp" version="4.6.0" match="greaterOrEqual"/>
+   </requires>
+
+</feature>

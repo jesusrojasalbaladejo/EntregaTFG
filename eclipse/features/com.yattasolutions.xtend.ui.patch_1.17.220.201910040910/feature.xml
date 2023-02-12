@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.xtend.ui.patch"
+      label="Xtend (2.2.0) Ui Patch Feature for UML Lab"
+      version="1.17.220.201910040910"
+      provider-name="Yatta Solutions GmbH">
+
+   <description url="http://www.eclipse.org/modeling/m2t">
+      Xtend Ui
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      %copyright
+   </copyright>
+
+   <license url="epl-v10.html">
+      %license
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="http://update.uml-lab.com/"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.xtend.ui" version="2.2.0.v201605260315" patch="true"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.xtend.shared.ui"
+         download-size="336"
+         install-size="684"
+         version="2.2.0.yatta-patch-201910040908"
+         unpack="false"/>
+
+</feature>

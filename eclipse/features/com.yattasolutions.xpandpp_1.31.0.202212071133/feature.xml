@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.xpandpp"
+      label="Xpand++ Editor Feature"
+      version="1.31.0.202212071133"
+      provider-name="%providerName">
+
+   <description>
+      Xpand++ Editor Feature
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+   %licenseText 
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="https://platform.yatta.de/update/uml-lab"/>
+   </url>
+
+   <requires>
+      <import feature="com.yattasolutions.umllab.core" version="1.31.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="com.yattasolutions.xpandpp"
+         download-size="665"
+         install-size="963"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.xpandpp.ui"
+         download-size="55"
+         install-size="174"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.umllab.templateworkbench"
+         download-size="115"
+         install-size="299"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

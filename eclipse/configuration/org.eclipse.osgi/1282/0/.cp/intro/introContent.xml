@@ -1,0 +1,4 @@
+ <introContent>
+    <page id="welcome" content="welcome.xhtml"/>
+    <page id="standby" content="standby.xhtml"/>
+</introContent>

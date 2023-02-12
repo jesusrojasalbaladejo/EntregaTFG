@@ -1,0 +1,8 @@
+requires.0.namespace = org.eclipse.equinox.p2.iu
+requires.0.name = org.apache.httpcomponents.httpcore
+requires.0.range = [4.3.3,5.0.0)
+requires.0.greedy = true
+requires.1.namespace = org.eclipse.equinox.p2.iu
+requires.1.name = org.apache.httpcomponents.httpclient
+requires.1.range = [4.3.6,5.0.0)
+requires.1.greedy = true

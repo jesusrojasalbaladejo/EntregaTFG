@@ -1,0 +1,1242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='update site: jar:file:/C:/Users/Jesús/Downloads/objectaid-1.1.14.zip!/' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1674512837744'/>
+    <property name='site.checksum' value='1633882821'/>
+  </properties>
+  <units size='40'>
+    <unit id='com.objectaid.uml.seq.java' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.seq.java' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.seq.java' version='1.1.14'/>
+        <provided namespace='osgi.bundle' name='com.objectaid.uml.seq.java' version='1.1.14'/>
+        <provided namespace='osgi.identity' name='com.objectaid.uml.seq.java' version='1.1.14'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.objectaid.uml.seq.java' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.objectaid.uml.seq.java&#xA;Bundle-Version: 1.1.14&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.swing' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.swing' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.swing' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.swing' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.swing' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.swing' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.swing&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.xml.resolver' version='1.2.0.v201005080400' singleton='false'>
+      <update id='org.apache.xml.resolver' range='[0.0.0,1.2.0.v201005080400)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.xml.resolver' version='1.2.0.v201005080400'/>
+        <provided namespace='osgi.bundle' name='org.apache.xml.resolver' version='1.2.0.v201005080400'/>
+        <provided namespace='osgi.identity' name='org.apache.xml.resolver' version='1.2.0.v201005080400'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.xml.resolver' version='1.2.0.v201005080400'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.xml.resolver&#xA;Bundle-Version: 1.2.0.v201005080400&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.feature.jar' version='1.6.0'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Apache Batik (Required for Add-On)'/>
+        <property name='org.eclipse.equinox.p2.description' value='Apache Batik is needed for the ObjectAid Diagram Add-On.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='ObjectAid'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.feature.jar' version='1.6.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.apache.batik' version='1.6.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.apache.batik' version='1.6.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.apache.org/licenses/LICENSE-2.0.html' url='http://www.apache.org/licenses/LICENSE-2.0.html'>
+          Apache Batik is covered by the Apache License, Version 2.0&#xA;See http://www.apache.org/licenses/LICENSE-2.0.html
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        Apache Batik&#xA;Copyright 1999-2007 The Apache Software Foundation&#xA;&#xA;This product includes software developed at&#xA;The Apache Software Foundation (http://www.apache.org/).&#xA;&#xA;This software contains code from the World Wide Web Consortium (W3C) for the &#xA;Document Object Model API (DOM API) and SVG Document Type Definition (DTD).&#xA;&#xA;This software contains code from the International Organisation for&#xA;Standardization for the definition of character entities used in the software&apos;s&#xA;documentation.&#xA;&#xA;This product includes images from the Tango Desktop Project&#xA;(http://tango.freedesktop.org/).&#xA;&#xA;This product includes images from the Pasodoble Icon Theme&#xA;(http://www.jesusda.com/projects/pasodoble).
+      </copyright>
+    </unit>
+    <unit id='org.apache.batik.dom' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.dom' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.dom' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.dom' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.dom' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.dom' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.dom&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml.cls.feature.jar' version='1.1.14'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='ObjectAid Class Diagram'/>
+        <property name='org.eclipse.equinox.p2.description' value='The ObjectAid Class Diagram is optimized for the quick and easy creation of diagrams from existing Java source code and libraries. Code exploration is supported by seamless integration into the Eclipse IDE and many ease-of-use features.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.objectaid.com'/>
+        <property name='org.eclipse.equinox.p2.provider' value='ObjectAid'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.cls.feature.jar' version='1.1.14'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.objectaid.uml.cls' version='1.1.14'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.objectaid.uml.cls' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          ObjectAid Class Diagram Editor License&#xA;1. This software is free to download and use.&#xA;2. You may not change the executable or charge for it.&#xA;3. You may not reverse engineer or distribute the source code of this software.&#xA;4. This software is provided &apos;as is&apos; without any warranties.
+        </license>
+      </licenses>
+      <copyright>
+        (C) Copyright 2007 by Felix L J Mayer
+      </copyright>
+    </unit>
+    <unit id='org.apache.batik.transcoder' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.transcoder' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.transcoder' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.transcoder' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.transcoder' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.transcoder' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.transcoder&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.xerces' version='2.9.0.v201101211617' singleton='false'>
+      <update id='org.apache.xerces' range='[0.0.0,2.9.0.v201101211617)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.xerces' version='2.9.0.v201101211617'/>
+        <provided namespace='osgi.bundle' name='org.apache.xerces' version='2.9.0.v201101211617'/>
+        <provided namespace='osgi.identity' name='org.apache.xerces' version='2.9.0.v201101211617'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.xerces' version='2.9.0.v201101211617'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.xerces&#xA;Bundle-Version: 2.9.0.v201101211617&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.w3c.dom.events' version='3.0.0.draft20060413_v201105210656' singleton='false'>
+      <update id='org.w3c.dom.events' range='[0.0.0,3.0.0.draft20060413_v201105210656)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.w3c.dom.events' version='3.0.0.draft20060413_v201105210656'/>
+        <provided namespace='osgi.bundle' name='org.w3c.dom.events' version='3.0.0.draft20060413_v201105210656'/>
+        <provided namespace='osgi.identity' name='org.w3c.dom.events' version='3.0.0.draft20060413_v201105210656'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.w3c.dom.events' version='3.0.0.draft20060413_v201105210656'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.w3c.dom.events&#xA;Bundle-Version: 3.0.0.draft20060413_v201105210656&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml.cls' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.cls' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.cls' version='1.1.14'/>
+        <provided namespace='osgi.bundle' name='com.objectaid.uml.cls' version='1.1.14'/>
+        <provided namespace='osgi.identity' name='com.objectaid.uml.cls' version='1.1.14'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.objectaid.uml.cls' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.objectaid.uml.cls&#xA;Bundle-Version: 1.1.14&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.parser' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.parser' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.parser' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.parser' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.parser' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.parser' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.parser&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='jar:file:/C:/Users/Jesús/Downloads/objectaid-1.1.14.zip!/site.xml.ObjectAid UML Explorer' version='1.0.0.787G8IcLep_h'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='ObjectAid UML Explorer'/>
+        <property name='org.eclipse.equinox.p2.description' value='The ObjectAid UML Explorer is an agile and lightweight code visualization tool for the Eclipse IDE. It shows your Java source code and libraries as UML class and sequence diagrams.'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='jar:file:/C:/Users/Jesús/Downloads/objectaid-1.1.14.zip!/site.xml.ObjectAid UML Explorer' version='1.0.0.787G8IcLep_h'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.seq.feature.group' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.feature.group' range='[1.6.0,1.6.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.addon.feature.group' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.cls.feature.group' range='[1.1.14,1.1.14]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.apache.batik.ext.awt' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.ext.awt' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.ext.awt' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.ext.awt' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.ext.awt' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.ext.awt' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.ext.awt&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.feature.group' version='1.6.0' singleton='false'>
+      <update id='org.apache.batik.feature.group' range='[0.0.0,1.6.0)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Apache Batik (Required for Add-On)'/>
+        <property name='org.eclipse.equinox.p2.description' value='Apache Batik is needed for the ObjectAid Diagram Add-On.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='ObjectAid'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.feature.group' version='1.6.0'/>
+      </provides>
+      <requires size='24'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.osgi' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='javax.xml' range='[1.3.4.v201005080400,1.3.4.v201005080400]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.bridge' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.css' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.dom' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.dom.svg' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.ext.awt' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.extension' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.parser' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.pdf' range='[1.6.0.v201105071520,1.6.0.v201105071520]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.svggen' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.swing' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.transcoder' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.util' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.util.gui' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.xml' range='[1.6.0.v201011041432,1.6.0.v201011041432]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xerces' range='[2.9.0.v201101211617,2.9.0.v201101211617]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xml.resolver' range='[1.2.0.v201005080400,1.2.0.v201005080400]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.xml.serializer' range='[2.7.1.v201005080400,2.7.1.v201005080400]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.w3c.css.sac' range='[1.3.1.v200903091627,1.3.1.v200903091627]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.w3c.dom.events' range='[3.0.0.draft20060413_v201105210656,3.0.0.draft20060413_v201105210656]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.w3c.dom.smil' range='[1.0.1.v200903091627,1.0.1.v200903091627]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.w3c.dom.svg' range='[1.1.0.v201011041433,1.1.0.v201011041433]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.feature.jar' range='[1.6.0,1.6.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.apache.org/licenses/LICENSE-2.0.html' url='http://www.apache.org/licenses/LICENSE-2.0.html'>
+          Apache Batik is covered by the Apache License, Version 2.0&#xA;See http://www.apache.org/licenses/LICENSE-2.0.html
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        Apache Batik&#xA;Copyright 1999-2007 The Apache Software Foundation&#xA;&#xA;This product includes software developed at&#xA;The Apache Software Foundation (http://www.apache.org/).&#xA;&#xA;This software contains code from the World Wide Web Consortium (W3C) for the &#xA;Document Object Model API (DOM API) and SVG Document Type Definition (DTD).&#xA;&#xA;This software contains code from the International Organisation for&#xA;Standardization for the definition of character entities used in the software&apos;s&#xA;documentation.&#xA;&#xA;This product includes images from the Tango Desktop Project&#xA;(http://tango.freedesktop.org/).&#xA;&#xA;This product includes images from the Pasodoble Icon Theme&#xA;(http://www.jesusda.com/projects/pasodoble).
+      </copyright>
+    </unit>
+    <unit id='org.apache.batik.xml' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.xml' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.xml' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.xml' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.xml' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.xml' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.xml&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml.cls.feature.group' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.cls.feature.group' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='ObjectAid Class Diagram'/>
+        <property name='org.eclipse.equinox.p2.description' value='The ObjectAid Class Diagram is optimized for the quick and easy creation of diagrams from existing Java source code and libraries. Code exploration is supported by seamless integration into the Eclipse IDE and many ease-of-use features.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.objectaid.com'/>
+        <property name='org.eclipse.equinox.p2.provider' value='ObjectAid'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.cls.feature.group' version='1.1.14'/>
+      </provides>
+      <requires size='27'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.draw2d' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface.text' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ltk.core.refactoring' range='3.5.100'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.osgi' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.swt' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.text' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.console' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.editors' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.ide' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.navigator' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.views' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench.texteditor' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.help' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.help.ui' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.core' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.ui' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.java' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.cls' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.cls.java' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.cls.feature.jar' range='[1.1.14,1.1.14]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          ObjectAid Class Diagram Editor License&#xA;1. This software is free to download and use.&#xA;2. You may not change the executable or charge for it.&#xA;3. You may not reverse engineer or distribute the source code of this software.&#xA;4. This software is provided &apos;as is&apos; without any warranties.
+        </license>
+      </licenses>
+      <copyright>
+        (C) Copyright 2007 by Felix L J Mayer
+      </copyright>
+    </unit>
+    <unit id='com.objectaid.uml.seq' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.seq' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.seq' version='1.1.14'/>
+        <provided namespace='osgi.bundle' name='com.objectaid.uml.seq' version='1.1.14'/>
+        <provided namespace='osgi.identity' name='com.objectaid.uml.seq' version='1.1.14'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.objectaid.uml.seq' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.objectaid.uml.seq&#xA;Bundle-Version: 1.1.14&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.xml.serializer' version='2.7.1.v201005080400' singleton='false'>
+      <update id='org.apache.xml.serializer' range='[0.0.0,2.7.1.v201005080400)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.xml.serializer' version='2.7.1.v201005080400'/>
+        <provided namespace='osgi.bundle' name='org.apache.xml.serializer' version='2.7.1.v201005080400'/>
+        <provided namespace='osgi.identity' name='org.apache.xml.serializer' version='2.7.1.v201005080400'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.xml.serializer' version='2.7.1.v201005080400'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.xml.serializer&#xA;Bundle-Version: 2.7.1.v201005080400&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.w3c.css.sac' version='1.3.1.v200903091627' singleton='false'>
+      <update id='org.w3c.css.sac' range='[0.0.0,1.3.1.v200903091627)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.w3c.css.sac' version='1.3.1.v200903091627'/>
+        <provided namespace='osgi.bundle' name='org.w3c.css.sac' version='1.3.1.v200903091627'/>
+        <provided namespace='osgi.identity' name='org.w3c.css.sac' version='1.3.1.v200903091627'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.w3c.css.sac' version='1.3.1.v200903091627'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.w3c.css.sac&#xA;Bundle-Version: 1.3.1.v200903091627&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml.addon.feature.jar' version='1.1.14'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='ObjectAid Diagram Add-On (License Required)'/>
+        <property name='org.eclipse.equinox.p2.description' value='The ObjectAid UML Explorer is optimized for the quick and easy creation of UML class diagrams from existing Java source code and libraries. Code exploration is supported by seamless integration into the Eclipse IDE and many ease-of-use features'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.objectaid.com'/>
+        <property name='org.eclipse.equinox.p2.provider' value='ObjectAid'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.addon.feature.jar' version='1.1.14'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.objectaid.uml.addon' version='1.1.14'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.objectaid.uml.addon' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          ObjectAid Diagram Add-On License&#xA;1. You must have a valid license to use this software.&#xA;2. A evaluation license allows this software to be used on one computer at a time for the duration &#xA;of the evaluation period.&#xA;3. A user license can be used by the operating system user you select on one computer at a time. &#xA;You are only able to use such a license if the operating system user you specified is logged in. &#xA;You can install the license on multiple computers, but you cannot use it on two computers at the &#xA;same time.&#xA;4. A node-locked license can be used by any user on the computer to which it is locked through&#xA;the computer&apos;s network MAC address. It can only be used by one person at a time.&#xA;5. A license is valid for a particular software release and includes all updates for that release. &#xA;For example, a license for release 1.0 is valid for all 1.0.x versions. ObjectAid LLC reserves the &#xA;right to charge for the upgrade of existing licenses to the new release.&#xA;6. While purchased licenses generally do not expire, for a license in online mode a lease is&#xA;obtained from the ObjectAid license server which is renewed automatically on a regular basis. &#xA;A license in offline mode does not need to be renewed in this way, but the operating system user &#xA;name or MAC address can only be set 3 times.&#xA;7. A purchased license can become a user or node-locked license at any time; it can also be &#xA;switched between online and offline mode.&#xA;8. Purchase licenses are generally not refundable. If you are not sure, please try an evaluation license.&#xA;9. You may not reverse engineer or distribute the source code of this application.
+        </license>
+      </licenses>
+      <copyright>
+        (C) Copyright 2013 by Felix L J Mayer
+      </copyright>
+    </unit>
+    <unit id='org.apache.batik.util' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.util' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.util' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.util' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.util' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.util' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.util&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml.addon' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.addon' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.addon' version='1.1.14'/>
+        <provided namespace='osgi.bundle' name='com.objectaid.uml.addon' version='1.1.14'/>
+        <provided namespace='osgi.identity' name='com.objectaid.uml.addon' version='1.1.14'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.objectaid.uml.addon' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.objectaid.uml.addon&#xA;Bundle-Version: 1.1.14&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml.seq.feature.group' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.seq.feature.group' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='ObjectAid Sequence Diagram (License Required)'/>
+        <property name='org.eclipse.equinox.p2.description' value='The ObjectAid Sequence Diagram is optimized for the quick and easy creation of diagrams from existing Java source code and libraries.&#xA;Please see http://www.objectaid.com/install-license on how to get a license.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.objectaid.com'/>
+        <property name='org.eclipse.equinox.p2.provider' value='ObjectAid'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.seq.feature.group' version='1.1.14'/>
+      </provides>
+      <requires size='32'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.draw2d' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.ide' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.views' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.filesystem' range='1.3.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.console' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface.text' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.core' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.debug' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.ui' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.core' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ltk.core.refactoring' range='3.5.100'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.osgi' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.swt' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.text' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.editors' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.navigator' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench.texteditor' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.help' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.help.ui' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.debug.ui' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.ui' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.seq' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.seq.java' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.java' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.seq.feature.jar' range='[1.1.14,1.1.14]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          ObjectAid Sequence Diagram Editor License&#xA;1. You must have a valid license to use this software.&#xA;2. A evaluation license allows this software to be used on one computer at a time for the duration &#xA;of the evaluation period.&#xA;3. A user license can be used by the operating system user you select on one computer at a time. &#xA;You are only able to use such a license if the operating system user you specified is logged in. &#xA;You can install the license on multiple computers, but you cannot use it on two computers at the &#xA;same time.&#xA;4. A node-locked license can be used by any user on the computer to which it is locked through&#xA;the computer&apos;s network MAC address. It can only be used by one person at a time.&#xA;5. A license is valid for a particular software release and includes all updates for that release. &#xA;For example, a license for release 1.0 is valid for all 1.0.x versions. ObjectAid LLC reserves the &#xA;right to charge for the upgrade of existing licenses to the new release.&#xA;6. While purchased licenses generally do not expire, for a license in online mode a lease is&#xA;obtained from the ObjectAid license server which is renewed automatically on a regular basis. &#xA;A license in offline mode does not need to be renewed in this way, but the operating system user &#xA;name or MAC address can only be set 3 times.&#xA;7. A purchased license can become a user or node-locked license at any time; it can also be &#xA;switched between online and offline mode.&#xA;8. Purchase licenses are generally not refundable. If you are not sure, please try an evaluation license.&#xA;9. You may not reverse engineer or distribute the source code of this application.
+        </license>
+      </licenses>
+      <copyright>
+        (C) Copyright 2011 by Felix L J Mayer
+      </copyright>
+    </unit>
+    <unit id='com.objectaid.uml.cls.java' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.cls.java' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.cls.java' version='1.1.14'/>
+        <provided namespace='osgi.bundle' name='com.objectaid.uml.cls.java' version='1.1.14'/>
+        <provided namespace='osgi.identity' name='com.objectaid.uml.cls.java' version='1.1.14'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.objectaid.uml.cls.java' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.objectaid.uml.cls.java&#xA;Bundle-Version: 1.1.14&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.css' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.css' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.css' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.css' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.css' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.css' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.css&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.bridge' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.bridge' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.bridge' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.bridge' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.bridge' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.bridge' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.bridge&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.svggen' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.svggen' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.svggen' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.svggen' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.svggen' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.svggen' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.svggen&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.w3c.dom.svg' version='1.1.0.v201011041433' singleton='false'>
+      <update id='org.w3c.dom.svg' range='[0.0.0,1.1.0.v201011041433)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.w3c.dom.svg' version='1.1.0.v201011041433'/>
+        <provided namespace='osgi.bundle' name='org.w3c.dom.svg' version='1.1.0.v201011041433'/>
+        <provided namespace='osgi.identity' name='org.w3c.dom.svg' version='1.1.0.v201011041433'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.w3c.dom.svg' version='1.1.0.v201011041433'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.w3c.dom.svg&#xA;Bundle-Version: 1.1.0.v201011041433&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.extension' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.extension' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.extension' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.extension' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.extension' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.extension' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.extension&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml.java' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.java' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.java' version='1.1.14'/>
+        <provided namespace='osgi.bundle' name='com.objectaid.uml.java' version='1.1.14'/>
+        <provided namespace='osgi.identity' name='com.objectaid.uml.java' version='1.1.14'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.objectaid.uml.java' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.objectaid.uml.java&#xA;Bundle-Version: 1.1.14&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml' version='1.1.14'/>
+        <provided namespace='osgi.bundle' name='com.objectaid.uml' version='1.1.14'/>
+        <provided namespace='osgi.identity' name='com.objectaid.uml' version='1.1.14'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.objectaid.uml' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.objectaid.uml&#xA;Bundle-Version: 1.1.14&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.dom.svg' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.dom.svg' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.dom.svg' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.dom.svg' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.dom.svg' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.dom.svg' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.dom.svg&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml.addon.cls' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.addon.cls' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.addon.cls' version='1.1.14'/>
+        <provided namespace='osgi.bundle' name='com.objectaid.uml.addon.cls' version='1.1.14'/>
+        <provided namespace='osgi.identity' name='com.objectaid.uml.addon.cls' version='1.1.14'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.objectaid.uml.addon.cls' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.objectaid.uml.addon.cls&#xA;Bundle-Version: 1.1.14&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.pdf' version='1.6.0.v201105071520' singleton='false'>
+      <update id='org.apache.batik.pdf' range='[0.0.0,1.6.0.v201105071520)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.pdf' version='1.6.0.v201105071520'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.pdf' version='1.6.0.v201105071520'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.pdf' version='1.6.0.v201105071520'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.pdf' version='1.6.0.v201105071520'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.pdf&#xA;Bundle-Version: 1.6.0.v201105071520&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.batik.util.gui' version='1.6.0.v201011041432' singleton='false'>
+      <update id='org.apache.batik.util.gui' range='[0.0.0,1.6.0.v201011041432)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.util.gui' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.bundle' name='org.apache.batik.util.gui' version='1.6.0.v201011041432'/>
+        <provided namespace='osgi.identity' name='org.apache.batik.util.gui' version='1.6.0.v201011041432'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.batik.util.gui' version='1.6.0.v201011041432'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.batik.util.gui&#xA;Bundle-Version: 1.6.0.v201011041432&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml.addon.java' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.addon.java' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.addon.java' version='1.1.14'/>
+        <provided namespace='osgi.bundle' name='com.objectaid.uml.addon.java' version='1.1.14'/>
+        <provided namespace='osgi.identity' name='com.objectaid.uml.addon.java' version='1.1.14'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.objectaid.uml.addon.java' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.objectaid.uml.addon.java&#xA;Bundle-Version: 1.1.14&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.w3c.dom.smil' version='1.0.1.v200903091627' singleton='false'>
+      <update id='org.w3c.dom.smil' range='[0.0.0,1.0.1.v200903091627)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.w3c.dom.smil' version='1.0.1.v200903091627'/>
+        <provided namespace='osgi.bundle' name='org.w3c.dom.smil' version='1.0.1.v200903091627'/>
+        <provided namespace='osgi.identity' name='org.w3c.dom.smil' version='1.0.1.v200903091627'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.w3c.dom.smil' version='1.0.1.v200903091627'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.w3c.dom.smil&#xA;Bundle-Version: 1.0.1.v200903091627&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.objectaid.uml.addon.feature.group' version='1.1.14' singleton='false'>
+      <update id='com.objectaid.uml.addon.feature.group' range='[0.0.0,1.1.14)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='ObjectAid Diagram Add-On (License Required)'/>
+        <property name='org.eclipse.equinox.p2.description' value='The ObjectAid UML Explorer is optimized for the quick and easy creation of UML class diagrams from existing Java source code and libraries. Code exploration is supported by seamless integration into the Eclipse IDE and many ease-of-use features'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.objectaid.com'/>
+        <property name='org.eclipse.equinox.p2.provider' value='ObjectAid'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.addon.feature.group' version='1.1.14'/>
+      </provides>
+      <requires size='43'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.bridge' range='1.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.css' range='1.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.dom' range='1.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.dom.svg' range='1.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.ext.awt' range='1.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.pdf' range='1.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.svggen' range='1.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.transcoder' range='1.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.util' range='1.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.batik.xml' range='1.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.w3c.dom.svg' range='1.1.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.console' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.resources' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.draw2d' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.ide' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.junit' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.core' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.ui' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface.text' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.java' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ltk.core.refactoring' range='3.5.100'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.osgi' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.swt' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.text' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.editors' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.navigator' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.views' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench.texteditor' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.help' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.help.ui' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.cls' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.common' range='3.6.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.registry' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.addon' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.addon.java' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.addon.cls' range='[1.1.14,1.1.14]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.addon.feature.jar' range='[1.1.14,1.1.14]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          ObjectAid Diagram Add-On License&#xA;1. You must have a valid license to use this software.&#xA;2. A evaluation license allows this software to be used on one computer at a time for the duration &#xA;of the evaluation period.&#xA;3. A user license can be used by the operating system user you select on one computer at a time. &#xA;You are only able to use such a license if the operating system user you specified is logged in. &#xA;You can install the license on multiple computers, but you cannot use it on two computers at the &#xA;same time.&#xA;4. A node-locked license can be used by any user on the computer to which it is locked through&#xA;the computer&apos;s network MAC address. It can only be used by one person at a time.&#xA;5. A license is valid for a particular software release and includes all updates for that release. &#xA;For example, a license for release 1.0 is valid for all 1.0.x versions. ObjectAid LLC reserves the &#xA;right to charge for the upgrade of existing licenses to the new release.&#xA;6. While purchased licenses generally do not expire, for a license in online mode a lease is&#xA;obtained from the ObjectAid license server which is renewed automatically on a regular basis. &#xA;A license in offline mode does not need to be renewed in this way, but the operating system user &#xA;name or MAC address can only be set 3 times.&#xA;7. A purchased license can become a user or node-locked license at any time; it can also be &#xA;switched between online and offline mode.&#xA;8. Purchase licenses are generally not refundable. If you are not sure, please try an evaluation license.&#xA;9. You may not reverse engineer or distribute the source code of this application.
+        </license>
+      </licenses>
+      <copyright>
+        (C) Copyright 2013 by Felix L J Mayer
+      </copyright>
+    </unit>
+    <unit id='com.objectaid.uml.seq.feature.jar' version='1.1.14'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='ObjectAid Sequence Diagram (License Required)'/>
+        <property name='org.eclipse.equinox.p2.description' value='The ObjectAid Sequence Diagram is optimized for the quick and easy creation of diagrams from existing Java source code and libraries.&#xA;Please see http://www.objectaid.com/install-license on how to get a license.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.objectaid.com'/>
+        <property name='org.eclipse.equinox.p2.provider' value='ObjectAid'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.objectaid.uml.seq.feature.jar' version='1.1.14'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.objectaid.uml.seq' version='1.1.14'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.objectaid.uml.seq' version='1.1.14'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          ObjectAid Sequence Diagram Editor License&#xA;1. You must have a valid license to use this software.&#xA;2. A evaluation license allows this software to be used on one computer at a time for the duration &#xA;of the evaluation period.&#xA;3. A user license can be used by the operating system user you select on one computer at a time. &#xA;You are only able to use such a license if the operating system user you specified is logged in. &#xA;You can install the license on multiple computers, but you cannot use it on two computers at the &#xA;same time.&#xA;4. A node-locked license can be used by any user on the computer to which it is locked through&#xA;the computer&apos;s network MAC address. It can only be used by one person at a time.&#xA;5. A license is valid for a particular software release and includes all updates for that release. &#xA;For example, a license for release 1.0 is valid for all 1.0.x versions. ObjectAid LLC reserves the &#xA;right to charge for the upgrade of existing licenses to the new release.&#xA;6. While purchased licenses generally do not expire, for a license in online mode a lease is&#xA;obtained from the ObjectAid license server which is renewed automatically on a regular basis. &#xA;A license in offline mode does not need to be renewed in this way, but the operating system user &#xA;name or MAC address can only be set 3 times.&#xA;7. A purchased license can become a user or node-locked license at any time; it can also be &#xA;switched between online and offline mode.&#xA;8. Purchase licenses are generally not refundable. If you are not sure, please try an evaluation license.&#xA;9. You may not reverse engineer or distribute the source code of this application.
+        </license>
+      </licenses>
+      <copyright>
+        (C) Copyright 2011 by Felix L J Mayer
+      </copyright>
+    </unit>
+    <unit id='javax.xml' version='1.3.4.v201005080400' singleton='false'>
+      <update id='javax.xml' range='[0.0.0,1.3.4.v201005080400)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='javax.xml' version='1.3.4.v201005080400'/>
+        <provided namespace='osgi.bundle' name='javax.xml' version='1.3.4.v201005080400'/>
+        <provided namespace='osgi.identity' name='javax.xml' version='1.3.4.v201005080400'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='javax.xml' version='1.3.4.v201005080400'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: javax.xml&#xA;Bundle-Version: 1.3.4.v201005080400&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

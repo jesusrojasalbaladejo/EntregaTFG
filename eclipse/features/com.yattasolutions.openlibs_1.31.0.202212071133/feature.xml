@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.openlibs"
+      label="Open Source Features"
+      version="1.31.0.202212071133"
+      provider-name="Yatta Solutions GmbH">
+
+   <description>
+      Open Source Features for Yatta Solutions UML Lab
+   </description>
+
+   <copyright url="apache-v20.html">
+      Authors of Diff Match and Patch: Neil Fraser &lt;fraser@google.com&gt;,
+      Authors of org.apache.commons.httpclient.contrib.ssl: Oleg Kalnichevski &lt;oleg@ural.ru&gt;
+   </copyright>
+
+   <license url="http://www.apache.org/licenses/LICENSE-2.0">
+      %license
+   </license>
+
+   <plugin
+         id="com.yattasolutions.openlibs"
+         download-size="1174"
+         install-size="1340"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

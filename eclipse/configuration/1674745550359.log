@@ -1,0 +1,1208 @@
+!SESSION 2023-01-26 16:05:49.941 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.common 4 0 2023-01-26 16:05:53.461
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.common [664]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="2.27.0.v20221121-1400"; osgi.identity="org.eclipse.emf.common"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.ecore 4 0 2023-01-26 16:05:53.466
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.ecore [665]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="2.29.0.v20221121-1400"; osgi.identity="org.eclipse.emf.ecore"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.pde.spy.model 4 0 2023-01-26 16:06:41.983
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.spy.model [1105]
+  Unresolved requirement: Require-Bundle: org.eclipse.e4.tools.emf.ui; bundle-version="4.7.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.pde.ua.ui 4 0 2023-01-26 16:06:41.993
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.pde.ua.ui [1107]
+  Unresolved requirement: Require-Bundle: org.eclipse.pde.ua.core; bundle-version="[1.0.0,2.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.architecturereview.ui 4 0 2023-01-26 16:06:42.056
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.architecturereview.ui [1226]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.classdiagram.api; bundle-version="1.28.0"
+    -> Bundle-SymbolicName: com.yattasolutions.diagrams.classdiagram.api; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.diagrams.classdiagram.api [1248]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0"
+           -> Bundle-SymbolicName: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.diagrams.classdiagram.gef [1249]
+                Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"; visibility:="reexport"
+                  -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+                     com.yattasolutions.diagrams.editor [1251]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.codegen.common.ui 4 0 2023-01-26 16:06:42.064
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.codegen.common.ui [1232]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.diagrams.classdiagram.gef [1249]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.diagrams.editor [1251]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.codegen.java.reverse 4 0 2023-01-26 16:06:42.083
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.codegen.java.reverse [1235]
+  Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+       org.eclipse.xtend.typesystem.uml2 [1414]
+         Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+              org.eclipse.uml2.uml.ecore.importer [1399]
+                Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                     org.eclipse.uml2.codegen.ecore [1392]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                            org.eclipse.emf.codegen.ecore [1342]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                     org.eclipse.emf.importer [1349]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                            org.eclipse.emf.codegen.ecore.ui [1343]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                            org.eclipse.emf.converter [1345]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.codegen.oaw 4 0 2023-01-26 16:06:42.096
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.codegen.oaw [1236]
+  Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+       org.eclipse.xtend.typesystem.uml2 [1414]
+         Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+              org.eclipse.uml2.uml.ecore.importer [1399]
+                Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                     org.eclipse.uml2.codegen.ecore [1392]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                            org.eclipse.emf.codegen.ecore [1342]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                     org.eclipse.emf.importer [1349]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                            org.eclipse.emf.codegen.ecore.ui [1343]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                            org.eclipse.emf.converter [1345]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.codegen.oaw.ui 4 0 2023-01-26 16:06:42.113
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.codegen.oaw.ui [1237]
+  Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+       org.eclipse.xtend.typesystem.uml2 [1414]
+         Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+              org.eclipse.uml2.uml.ecore.importer [1399]
+                Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                     org.eclipse.uml2.codegen.ecore [1392]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                            org.eclipse.emf.codegen.ecore [1342]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                     org.eclipse.emf.importer [1349]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                            org.eclipse.emf.codegen.ecore.ui [1343]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                            org.eclipse.emf.converter [1345]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.oaw; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.codegen.oaw; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.codegen.oaw [1236]
+         Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+  Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2.ui; bundle-version="[1.0.1,2.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2.ui; bundle-version="2.2.0.yatta-patch-201910040908"; singleton:="true"
+       org.eclipse.xtend.typesystem.uml2.ui [1415]
+         Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2
+           -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+         Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.codegen.reverse.oaw 4 0 2023-01-26 16:06:42.120
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.codegen.reverse.oaw [1242]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.oaw; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.codegen.oaw; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.codegen.oaw [1236]
+         Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+              org.eclipse.xtend.typesystem.uml2 [1414]
+                Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+                  -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+                     org.eclipse.uml2.uml.ecore.importer [1399]
+                       Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                            org.eclipse.uml2.codegen.ecore [1392]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                                   org.eclipse.emf.codegen.ecore [1342]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                            org.eclipse.emf.importer [1349]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                                   org.eclipse.emf.codegen.ecore.ui [1343]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                                   org.eclipse.emf.converter [1345]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.codegen.reverse.ui 4 0 2023-01-26 16:06:42.138
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.codegen.reverse.ui [1243]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.ui; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.codegen.ui; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.codegen.ui [1244]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.oaw; bundle-version="1.31.0"
+           -> Bundle-SymbolicName: com.yattasolutions.codegen.oaw; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.codegen.oaw [1236]
+                Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+                     org.eclipse.xtend.typesystem.uml2 [1414]
+                       Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+                         -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+                            org.eclipse.uml2.uml.ecore.importer [1399]
+                              Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                                   org.eclipse.uml2.codegen.ecore [1392]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                                          org.eclipse.emf.codegen.ecore [1342]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                                   org.eclipse.emf.importer [1349]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                                          org.eclipse.emf.codegen.ecore.ui [1343]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                              -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                                          org.eclipse.emf.converter [1345]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                              -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"
+           -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.diagrams.editor [1251]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.diagrams.classdiagram.gef [1249]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.oaw; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.codegen.oaw; bundle-version="1.31.0.202212071133"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.common.ui; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.codegen.common.ui; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.codegen.common.ui [1232]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0"
+           -> Bundle-SymbolicName: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0.202212071133"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.codegen.ui 4 0 2023-01-26 16:06:42.177
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.codegen.ui [1244]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.oaw; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.codegen.oaw; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.codegen.oaw [1236]
+         Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+              org.eclipse.xtend.typesystem.uml2 [1414]
+                Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+                  -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+                     org.eclipse.uml2.uml.ecore.importer [1399]
+                       Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                            org.eclipse.uml2.codegen.ecore [1392]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                                   org.eclipse.emf.codegen.ecore [1342]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                            org.eclipse.emf.importer [1349]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                                   org.eclipse.emf.codegen.ecore.ui [1343]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                                   org.eclipse.emf.converter [1345]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.diagrams.editor [1251]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.diagrams.classdiagram.api 4 0 2023-01-26 16:06:42.185
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.diagrams.classdiagram.api [1248]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.diagrams.classdiagram.gef [1249]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.diagrams.editor [1251]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.diagrams.classdiagram.gef 4 0 2023-01-26 16:06:42.201
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.diagrams.classdiagram.gef [1249]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"; visibility:="reexport"
+    -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.diagrams.editor [1251]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2023-01-26 16:06:42.209
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.diagrams.editor [1251]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.ecore.ui 4 0 2023-01-26 16:06:42.233
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.ecore.ui [1255]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.6.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+       org.eclipse.emf.codegen.ecore.ui [1343]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+              org.eclipse.emf.codegen.ecore [1342]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="[2.3.0,3.6.0)"
+    -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+       org.eclipse.uml2.uml.ecore.importer [1399]
+         Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+              org.eclipse.uml2.codegen.ecore [1392]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+              org.eclipse.emf.importer [1349]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                     org.eclipse.emf.converter [1345]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.6.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.linking.providers 4 0 2023-01-26 16:06:42.238
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.linking.providers [1265]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.oaw; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.codegen.oaw; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.codegen.oaw [1236]
+         Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+              org.eclipse.xtend.typesystem.uml2 [1414]
+                Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+                  -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+                     org.eclipse.uml2.uml.ecore.importer [1399]
+                       Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                            org.eclipse.uml2.codegen.ecore [1392]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                                   org.eclipse.emf.codegen.ecore [1342]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                            org.eclipse.emf.importer [1349]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                                   org.eclipse.emf.codegen.ecore.ui [1343]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                                   org.eclipse.emf.converter [1345]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.diagrams.classdiagram.gef [1249]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.diagrams.editor [1251]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.persistency.ui 4 0 2023-01-26 16:06:42.254
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.persistency.ui [1272]
+  Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+       org.eclipse.xtend.typesystem.uml2 [1414]
+         Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+              org.eclipse.uml2.uml.ecore.importer [1399]
+                Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                     org.eclipse.uml2.codegen.ecore [1392]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                            org.eclipse.emf.codegen.ecore [1342]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                     org.eclipse.emf.importer [1349]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                            org.eclipse.emf.codegen.ecore.ui [1343]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                            org.eclipse.emf.converter [1345]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.yattasolutions.persistency.profile; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.persistency.profile; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.persistency.profile [1271]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.oaw; bundle-version="1.31.0"
+           -> Bundle-SymbolicName: com.yattasolutions.codegen.oaw; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.codegen.oaw [1236]
+                Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+  Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.diagrams.classdiagram.gef [1249]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.diagrams.editor [1251]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.umllab.ccp 4 0 2023-01-26 16:06:42.290
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.umllab.ccp [1279]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.diagrams.classdiagram.gef; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.diagrams.classdiagram.gef [1249]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.diagrams.editor [1251]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.umllab.templateworkbench 4 0 2023-01-26 16:06:42.298
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.umllab.templateworkbench [1285]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.xpandpp; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.xpandpp; bundle-version="1.31.0.202212071133"
+       com.yattasolutions.xpandpp [1291]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.oaw; bundle-version="1.31.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.yattasolutions.codegen.oaw; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.codegen.oaw [1236]
+                Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+                     org.eclipse.xtend.typesystem.uml2 [1414]
+                       Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+                         -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+                            org.eclipse.uml2.uml.ecore.importer [1399]
+                              Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                                   org.eclipse.uml2.codegen.ecore [1392]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                                          org.eclipse.emf.codegen.ecore [1342]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                                   org.eclipse.emf.importer [1349]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                                          org.eclipse.emf.codegen.ecore.ui [1343]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                              -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                                          org.eclipse.emf.converter [1345]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                              -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.ui; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.codegen.ui; bundle-version="1.31.0.202212071133"; singleton:="true"
+       com.yattasolutions.codegen.ui [1244]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.oaw; bundle-version="1.31.0"
+           -> Bundle-SymbolicName: com.yattasolutions.codegen.oaw; bundle-version="1.31.0.202212071133"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.yattasolutions.diagrams.editor; bundle-version="1.31.0"
+           -> Bundle-SymbolicName: com.yattasolutions.diagrams.editor; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.diagrams.editor [1251]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.databinding.edit; bundle-version="[1.0.0,2.0.0)"; visibility:="reexport"
+  Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.yattasolutions.xpandpp.ui 4 0 2023-01-26 16:06:42.314
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.yattasolutions.xpandpp.ui [1292]
+  Unresolved requirement: Require-Bundle: com.yattasolutions.xpandpp; bundle-version="1.31.0"
+    -> Bundle-SymbolicName: com.yattasolutions.xpandpp; bundle-version="1.31.0.202212071133"
+       com.yattasolutions.xpandpp [1291]
+         Unresolved requirement: Require-Bundle: com.yattasolutions.codegen.oaw; bundle-version="1.31.0"; visibility:="reexport"
+           -> Bundle-SymbolicName: com.yattasolutions.codegen.oaw; bundle-version="1.31.0.202212071133"; singleton:="true"
+              com.yattasolutions.codegen.oaw [1236]
+                Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2; bundle-version="[1.0.1,2.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+                     org.eclipse.xtend.typesystem.uml2 [1414]
+                       Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+                         -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+                            org.eclipse.uml2.uml.ecore.importer [1399]
+                              Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                                   org.eclipse.uml2.codegen.ecore [1392]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                                          org.eclipse.emf.codegen.ecore [1342]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                                   org.eclipse.emf.importer [1349]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                                          org.eclipse.emf.codegen.ecore.ui [1343]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                              -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                                     Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                                       -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                                          org.eclipse.emf.converter [1345]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                              -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.codegen.ecore 4 0 2023-01-26 16:06:42.388
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.codegen.ecore [1342]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.codegen.ecore.ui 4 0 2023-01-26 16:06:42.411
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.codegen.ecore.ui [1343]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+       org.eclipse.emf.codegen.ecore [1342]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.converter 4 0 2023-01-26 16:06:42.419
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.converter [1345]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+       org.eclipse.emf.codegen.ecore [1342]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.31.0,3.0.0)"; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+       org.eclipse.emf.codegen.ecore.ui [1343]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.exporter 4 0 2023-01-26 16:06:42.419
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.exporter [1348]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+       org.eclipse.emf.converter [1345]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+              org.eclipse.emf.codegen.ecore [1342]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.31.0,3.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+              org.eclipse.emf.codegen.ecore.ui [1343]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.importer 4 0 2023-01-26 16:06:42.419
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.importer [1349]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+       org.eclipse.emf.codegen.ecore.ui [1343]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+              org.eclipse.emf.codegen.ecore [1342]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+       org.eclipse.emf.converter [1345]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.31.0,3.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui.render.awt 4 0 2023-01-26 16:06:42.707
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.gmf.runtime.draw2d.ui.render.awt [1366]
+  Unresolved requirement: Require-Bundle: org.apache.batik.anim; bundle-version="1.16.0"
+    -> Bundle-SymbolicName: org.apache.batik.anim; bundle-version="1.16.0.v20221027-0840"
+       org.apache.batik.anim [1307]
+         Unresolved requirement: Import-Package: org.apache.batik.dom.svg; version="[1.16.0,2.0.0)"
+           -> Export-Package: org.apache.batik.dom.svg; bundle-symbolic-name="org.apache.batik.dom.svg"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"
+              org.apache.batik.dom.svg [1314]
+                Unresolved requirement: Import-Package: org.apache.batik.parser; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.parser; bundle-symbolic-name="org.apache.batik.parser"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.ext.awt.geom,org.apache.batik.i18n,org.apache.batik.util.io,org.w3c.dom"
+                     org.apache.batik.parser [1318]
+                       No resolution report for the bundle.         Unresolved requirement: Import-Package: org.apache.batik.dom.svg12; version="[1.16.0,2.0.0)"
+           -> Export-Package: org.apache.batik.dom.svg12; bundle-symbolic-name="org.apache.batik.dom.svg"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"
+         Unresolved requirement: Import-Package: org.apache.batik.parser; version="[1.16.0,2.0.0)"
+           -> Export-Package: org.apache.batik.parser; bundle-symbolic-name="org.apache.batik.parser"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.ext.awt.geom,org.apache.batik.i18n,org.apache.batik.util.io,org.w3c.dom"
+  Unresolved requirement: Require-Bundle: org.apache.batik.codec; bundle-version="1.16.0"
+    -> Bundle-SymbolicName: org.apache.batik.codec; bundle-version="1.16.0.v20221027-0840"
+       org.apache.batik.codec [1310]
+         Unresolved requirement: Import-Package: org.apache.batik.bridge; version="[1.16.0,2.0.0)"
+           -> Export-Package: org.apache.batik.bridge; bundle-symbolic-name="org.apache.batik.bridge"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.anim,org.apache.batik.anim.dom,org.apache.batik.anim.timing,org.apache.batik.anim.values,org.apache.batik.constants,org.apache.batik.css.engine,org.apache.batik.css.engine.value,org.apache.batik.css.engine.value.svg,org.apache.batik.css.engine.value.svg12,org.apache.batik.dom,org.apache.batik.dom.events,org.apache.batik.dom.svg,org.apache.batik.dom.xbl,org.apache.batik.ext.awt,org.apache.batik.ext.awt.color,org.apache.batik.ext.awt.geom,org.apache.batik.ext.awt.image,org.apache.batik.ext.awt.image.renderable,org.apache.batik.ext.awt.image.spi,org.apache.batik.gvt,org.apache.batik.gvt.event,org.apache.batik.gvt.filter,org.apache.batik.gvt.font,org.apache.batik.gvt.renderer,org.apache.batik.gvt.text,org.apache.batik.i18n,org.apache.batik.parser,org.apache.batik.script,org.apache.batik.script.rhino,org.apache.batik.util,org.apache.batik.w3c.dom,org.apache.xmlgraphics.java2d.color,org.mozilla.javascript,org.w3c.dom,org.w3c.dom.css,org.w3c.dom.events,org.w3c.dom.svg"
+              org.apache.batik.bridge [1309]
+                Unresolved requirement: Import-Package: org.mozilla.javascript; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.batik.anim.dom; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.anim.dom; bundle-symbolic-name="org.apache.batik.anim"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.anim.values,org.apache.batik.css.dom,org.apache.batik.css.engine,org.apache.batik.css.parser,org.apache.batik.dom,org.apache.batik.dom.events,org.apache.batik.dom.svg,org.apache.batik.dom.util,org.apache.batik.dom.xbl,org.apache.batik.i18n,org.apache.batik.parser,org.w3c.dom,org.w3c.dom.css,org.w3c.dom.stylesheets,org.w3c.dom.svg,org.w3c.dom.views,org.xml.sax"
+                Unresolved requirement: Import-Package: org.apache.batik.script; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.script; bundle-symbolic-name="org.apache.batik.script"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.i18n,org.w3c.dom"
+                     org.apache.batik.script [1319]
+                       Unresolved requirement: Import-Package: org.mozilla.javascript; version="1.7.7"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.python.core; version="2.7.0"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.python.util; version="2.7.0"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.batik.anim.dom; version="[1.16.0,2.0.0)"
+                         -> Export-Package: org.apache.batik.anim.dom; bundle-symbolic-name="org.apache.batik.anim"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.anim.values,org.apache.batik.css.dom,org.apache.batik.css.engine,org.apache.batik.css.parser,org.apache.batik.dom,org.apache.batik.dom.events,org.apache.batik.dom.svg,org.apache.batik.dom.util,org.apache.batik.dom.xbl,org.apache.batik.i18n,org.apache.batik.parser,org.w3c.dom,org.w3c.dom.css,org.w3c.dom.stylesheets,org.w3c.dom.svg,org.w3c.dom.views,org.xml.sax"
+                Unresolved requirement: Import-Package: org.apache.batik.anim.values; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.anim.values; bundle-symbolic-name="org.apache.batik.anim"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.anim.dom,org.apache.batik.dom.svg"
+                Unresolved requirement: Import-Package: org.apache.batik.anim.timing; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.anim.timing; bundle-symbolic-name="org.apache.batik.anim"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.anim,org.apache.batik.i18n,org.apache.batik.parser,org.w3c.dom"
+                Unresolved requirement: Import-Package: org.apache.batik.anim; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.anim; bundle-symbolic-name="org.apache.batik.anim"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.anim.dom,org.apache.batik.anim.timing,org.apache.batik.anim.values,org.apache.batik.ext.awt.geom,org.w3c.dom"
+                Unresolved requirement: Import-Package: org.apache.batik.parser; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.parser; bundle-symbolic-name="org.apache.batik.parser"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.ext.awt.geom,org.apache.batik.i18n,org.apache.batik.util.io,org.w3c.dom"
+                Unresolved requirement: Import-Package: org.apache.batik.script.rhino; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.script.rhino; bundle-symbolic-name="org.apache.batik.script"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.i18n,org.mozilla.javascript"
+                Unresolved requirement: Import-Package: org.apache.batik.dom.svg12; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.dom.svg12; bundle-symbolic-name="org.apache.batik.dom.svg"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"
+                Unresolved requirement: Import-Package: org.apache.batik.dom.svg; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.dom.svg; bundle-symbolic-name="org.apache.batik.dom.svg"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"
+         Unresolved requirement: Import-Package: org.apache.batik.transcoder; version="[1.16.0,2.0.0)"
+           -> Export-Package: org.apache.batik.transcoder; bundle-symbolic-name="org.apache.batik.transcoder"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.anim.dom,org.apache.batik.bridge,org.apache.batik.dom.util,org.apache.batik.gvt,org.apache.batik.svggen,org.apache.batik.util,org.w3c.dom,org.xml.sax"
+              org.apache.batik.transcoder [1321]
+                Unresolved requirement: Import-Package: org.apache.batik.bridge.svg12; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.bridge.svg12; bundle-symbolic-name="org.apache.batik.bridge"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="javax.swing.event,javax.xml.namespace,javax.xml.xpath,org.apache.batik.anim.dom,org.apache.batik.bridge,org.apache.batik.dom,org.apache.batik.dom.events,org.apache.batik.dom.svg12,org.apache.batik.dom.util,org.apache.batik.dom.xbl,org.apache.batik.gvt,org.apache.batik.gvt.event,org.apache.batik.gvt.flow,org.apache.batik.gvt.text,org.apache.batik.parser,org.apache.batik.script,org.apache.batik.util,org.w3c.dom,org.w3c.dom.events,org.w3c.dom.svg"
+                Unresolved requirement: Import-Package: org.apache.batik.bridge; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.bridge; bundle-symbolic-name="org.apache.batik.bridge"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.anim,org.apache.batik.anim.dom,org.apache.batik.anim.timing,org.apache.batik.anim.values,org.apache.batik.constants,org.apache.batik.css.engine,org.apache.batik.css.engine.value,org.apache.batik.css.engine.value.svg,org.apache.batik.css.engine.value.svg12,org.apache.batik.dom,org.apache.batik.dom.events,org.apache.batik.dom.svg,org.apache.batik.dom.xbl,org.apache.batik.ext.awt,org.apache.batik.ext.awt.color,org.apache.batik.ext.awt.geom,org.apache.batik.ext.awt.image,org.apache.batik.ext.awt.image.renderable,org.apache.batik.ext.awt.image.spi,org.apache.batik.gvt,org.apache.batik.gvt.event,org.apache.batik.gvt.filter,org.apache.batik.gvt.font,org.apache.batik.gvt.renderer,org.apache.batik.gvt.text,org.apache.batik.i18n,org.apache.batik.parser,org.apache.batik.script,org.apache.batik.script.rhino,org.apache.batik.util,org.apache.batik.w3c.dom,org.apache.xmlgraphics.java2d.color,org.mozilla.javascript,org.w3c.dom,org.w3c.dom.css,org.w3c.dom.events,org.w3c.dom.svg"
+                Unresolved requirement: Import-Package: org.apache.batik.anim.dom; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.anim.dom; bundle-symbolic-name="org.apache.batik.anim"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.anim.values,org.apache.batik.css.dom,org.apache.batik.css.engine,org.apache.batik.css.parser,org.apache.batik.dom,org.apache.batik.dom.events,org.apache.batik.dom.svg,org.apache.batik.dom.util,org.apache.batik.dom.xbl,org.apache.batik.i18n,org.apache.batik.parser,org.w3c.dom,org.w3c.dom.css,org.w3c.dom.stylesheets,org.w3c.dom.svg,org.w3c.dom.views,org.xml.sax"
+                Unresolved requirement: Import-Package: org.apache.batik.svggen; version="[1.16.0,2.0.0)"
+                  -> Export-Package: org.apache.batik.svggen; bundle-symbolic-name="org.apache.batik.svggen"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="javax.swing,org.apache.batik.constants,org.apache.batik.ext.awt.g2d,org.apache.batik.util,org.w3c.dom"
+                     org.apache.batik.svggen [1320]
+         Unresolved requirement: Import-Package: org.apache.batik.transcoder.image; version="[1.16.0,2.0.0)"
+           -> Export-Package: org.apache.batik.transcoder.image; bundle-symbolic-name="org.apache.batik.transcoder"; bundle-version="1.16.0.v20221027-0840"; version="1.16.0"; uses:="org.apache.batik.bridge,org.apache.batik.gvt.renderer,org.apache.batik.transcoder,org.w3c.dom"
+  Unresolved requirement: Require-Bundle: org.apache.batik.svggen; bundle-version="1.16.0"
+    -> Bundle-SymbolicName: org.apache.batik.svggen; bundle-version="1.16.0.v20221027-0840"
+  Unresolved requirement: Require-Bundle: org.apache.batik.transcoder; bundle-version="1.16.0"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.apache.batik.transcoder; bundle-version="1.16.0.v20221027-0840"
+  Unresolved requirement: Require-Bundle: org.apache.batik.bridge; bundle-version="1.16.0"
+    -> Bundle-SymbolicName: org.apache.batik.bridge; bundle-version="1.16.0.v20221027-0840"
+  Unresolved requirement: Require-Bundle: org.apache.batik.dom.svg; bundle-version="1.16.0"
+    -> Bundle-SymbolicName: org.apache.batik.dom.svg; bundle-version="1.16.0.v20221027-0840"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.gmf.runtime.draw2d.ui.render.awt [osgi.identity; type="osgi.bundle"; version:Version="1.10.0.202211041032"; osgi.identity="org.eclipse.gmf.runtime.draw2d.ui.render.awt"; singleton:="true"] because it is exposed to package 'org.w3c.dom.events' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.18.100.v20220817-1601"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and org.w3c.dom.events [osgi.identity; type="osgi.bundle"; version:Version="3.0.0.draft20060413_v201105210656"; osgi.identity="org.w3c.dom.events"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.gmf.runtime.draw2d.ui.render.awt [osgi.identity; type="osgi.bundle"; version:Version="1.10.0.202211041032"; osgi.identity="org.eclipse.gmf.runtime.draw2d.ui.render.awt"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(&(bundle-version>=3.5.0)(!(bundle-version>=4.0.0))))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.18.100.v20220817-1601"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.gmf.runtime.draw2d.ui.render.awt [osgi.identity; type="osgi.bundle"; version:Version="1.10.0.202211041032"; osgi.identity="org.eclipse.gmf.runtime.draw2d.ui.render.awt"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.apache.batik.transcoder)(bundle-version>=1.16.0))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="1.16.0.v20221027-0840"; osgi.wiring.bundle="org.apache.batik.transcoder"
+  org.apache.batik.transcoder [osgi.identity; type="osgi.bundle"; version:Version="1.16.0.v20221027-0840"; osgi.identity="org.apache.batik.transcoder"]
+    import: (&(osgi.wiring.package=org.apache.batik.bridge)(&(version>=1.16.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package=org.apache.batik.bridge; uses:=org.w3c.dom.events
+  org.apache.batik.bridge [osgi.identity; type="osgi.bundle"; version:Version="1.16.0.v20221027-0840"; osgi.identity="org.apache.batik.bridge"]
+    import: (osgi.wiring.package=org.w3c.dom.events)
+     |
+    export: osgi.wiring.package: org.w3c.dom.events
+  org.w3c.dom.events [osgi.identity; type="osgi.bundle"; version:Version="3.0.0.draft20060413_v201105210656"; osgi.identity="org.w3c.dom.events"]
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.uml2.codegen.ecore 4 0 2023-01-26 16:06:42.723
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.uml2.codegen.ecore [1392]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+       org.eclipse.emf.codegen.ecore [1342]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.uml2.codegen.ecore.ui 4 0 2023-01-26 16:06:42.731
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.uml2.codegen.ecore.ui [1393]
+  Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+       org.eclipse.uml2.codegen.ecore [1392]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+              org.eclipse.emf.codegen.ecore [1342]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+       org.eclipse.emf.codegen.ecore.ui [1343]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.uml2.uml.ecore.exporter 4 0 2023-01-26 16:06:42.731
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.uml2.uml.ecore.exporter [1398]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.exporter; bundle-version="[2.9.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.emf.exporter; bundle-version="2.10.0.v20190321-1530"; singleton:="true"
+       org.eclipse.emf.exporter [1348]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+              org.eclipse.emf.converter [1345]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                     org.eclipse.emf.codegen.ecore [1342]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.31.0,3.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                     org.eclipse.emf.codegen.ecore.ui [1343]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.uml2.uml.ecore.importer 4 0 2023-01-26 16:06:42.747
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.uml2.uml.ecore.importer [1399]
+  Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+       org.eclipse.uml2.codegen.ecore [1392]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+              org.eclipse.emf.codegen.ecore [1342]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+       org.eclipse.emf.importer [1349]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+              org.eclipse.emf.codegen.ecore.ui [1343]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+              org.eclipse.emf.converter [1345]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.xtend.typesystem.emf.ui 4 0 2023-01-26 16:06:42.755
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.xtend.typesystem.emf.ui [1413]
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.converter
+    -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+       org.eclipse.emf.converter [1345]
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+              org.eclipse.emf.codegen.ecore [1342]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.31.0,3.0.0)"; resolution:="optional"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+              org.eclipse.emf.codegen.ecore.ui [1343]
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.xtend.typesystem.uml2.ui 4 0 2023-01-26 16:06:42.763
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.xtend.typesystem.uml2.ui [1415]
+  Unresolved requirement: Require-Bundle: org.eclipse.xtend.typesystem.uml2
+    -> Bundle-SymbolicName: org.eclipse.xtend.typesystem.uml2; bundle-version="2.2.0.yatta-patch-201910040908"
+       org.eclipse.xtend.typesystem.uml2 [1414]
+         Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+              org.eclipse.uml2.uml.ecore.importer [1399]
+                Unresolved requirement: Require-Bundle: org.eclipse.uml2.codegen.ecore; bundle-version="[2.5.0,3.0.0)"; visibility:="reexport"
+                  -> Bundle-SymbolicName: org.eclipse.uml2.codegen.ecore; bundle-version="2.5.2.v20221116-1811"; singleton:="true"
+                     org.eclipse.uml2.codegen.ecore [1392]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.16.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                            org.eclipse.emf.codegen.ecore [1342]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.ecore.xmi; bundle-version="[2.17.0,3.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.importer; bundle-version="[2.11.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.importer; bundle-version="2.12.0.v20190321-1539"; singleton:="true"
+                     org.eclipse.emf.importer [1349]
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.18.0,3.0.0)"; resolution:="optional"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+                            org.eclipse.emf.codegen.ecore.ui [1343]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.32.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.converter; bundle-version="[2.10.0,3.0.0)"; visibility:="reexport"
+                         -> Bundle-SymbolicName: org.eclipse.emf.converter; bundle-version="2.11.0.v20220706-1313"; singleton:="true"
+                            org.eclipse.emf.converter [1345]
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore; bundle-version="[2.31.0,3.0.0)"; visibility:="reexport"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore; bundle-version="2.32.0.v20221121-1400"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen.ecore.ui; bundle-version="[2.16.0,3.0.0)"; resolution:="optional"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen.ecore.ui; bundle-version="2.32.0.v20220925-1245"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.uml2.uml.ecore.importer; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.uml2.uml.ecore.importer; bundle-version="3.5.0.v20221116-1811"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)

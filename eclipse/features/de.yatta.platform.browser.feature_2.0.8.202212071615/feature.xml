@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.yatta.platform.browser.feature"
+      label="%featureName"
+      version="2.0.8.202212071615"
+      provider-name="%providerName"
+      os="linux,macosx,win32"
+      ws="cocoa,gtk,win32"
+      arch="aarch64,x86_64">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <url>
+      <update label="Yatta Marketplace Update Site" url="https://marketplace.yatta.de/update/"/>
+   </url>
+
+   <plugin
+         id="de.yatta.platform.browser.jxbrowser"
+         download-size="11186"
+         install-size="12149"
+         version="2.0.8.202212071615"/>
+
+   <plugin
+         id="de.yatta.platform.browser.jxbrowser-linux64"
+         os="linux"
+         ws="gtk"
+         arch="x86_64"
+         download-size="86178"
+         install-size="86161"
+         version="2.0.8.202212071615"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.yatta.platform.browser.jxbrowser-win64"
+         os="win32"
+         ws="win32"
+         arch="x86_64"
+         download-size="76443"
+         install-size="76425"
+         version="2.0.8.202212071615"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.yatta.platform.browser.jxbrowser-mac"
+         os="macosx"
+         ws="cocoa"
+         arch="x86_64"
+         download-size="81334"
+         install-size="81317"
+         version="2.0.8.202212071615"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.yatta.platform.browser.jxbrowser-mac-aarch64"
+         os="macosx"
+         ws="cocoa"
+         arch="aarch64"
+         download-size="71601"
+         install-size="71586"
+         version="2.0.8.202212071615"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="de.yatta.platform.browser.jxbrowser-linux64-aarch64"
+         os="linux"
+         ws="gtk"
+         arch="aarch64"
+         download-size="86055"
+         install-size="86036"
+         version="2.0.8.202212071615"
+         fragment="true"
+         unpack="false"/>
+
+
+</feature>

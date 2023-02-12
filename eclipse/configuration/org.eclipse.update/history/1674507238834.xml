@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1674507238824" transient="false" version="3.0">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.m2e.feature" version="2.0.4.20220904-1703" url="features/org.eclipse.m2e.feature_2.0.4.20220904-1703/" plugin-identifier="org.eclipse.m2e.core">
+		</feature>
+		<feature id="org.eclipse.wildwebdeveloper.xml.feature" version="0.15.0.202207081036" url="features/org.eclipse.wildwebdeveloper.xml.feature_0.15.0.202207081036/">
+		</feature>
+		<feature id="org.eclipse.wb.swt.feature" version="1.11.0.202210231159" url="features/org.eclipse.wb.swt.feature_1.11.0.202210231159/" plugin-identifier="org.eclipse.wb.swt">
+		</feature>
+		<feature id="org.eclipse.m2m.qvt.oml.editor" version="3.10.7.v20220605-1149" url="features/org.eclipse.m2m.qvt.oml.editor_3.10.7.v20220605-1149/" plugin-identifier="org.eclipse.m2m.qvt.oml.editor.ui">
+		</feature>
+		<feature id="com.yattasolutions.ecore" version="1.31.0.202212071133" url="features/com.yattasolutions.ecore_1.31.0.202212071133/" plugin-identifier="com.yattasolutions.umllab.branding">
+		</feature>
+		<feature id="com.yattasolutions.xtend.ui.patch" version="1.17.220.201910040910" url="features/com.yattasolutions.xtend.ui.patch_1.17.220.201910040910/">
+		</feature>
+		<feature id="org.eclipse.epp.package.java.feature" version="4.25.0.20220908-1200" url="features/org.eclipse.epp.package.java.feature_4.25.0.20220908-1200/" plugin-identifier="org.eclipse.epp.package.java">
+		</feature>
+		<feature id="com.yattasolutions.uml2.patch" version="1.17.550.v20221116-1811" url="features/com.yattasolutions.uml2.patch_1.17.550.v20221116-1811/">
+		</feature>
+		<feature id="org.eclipse.xtend.dependencies" version="2.2.0.v201605260315" url="features/org.eclipse.xtend.dependencies_2.2.0.v201605260315/">
+		</feature>
+		<feature id="org.eclipse.tips.feature" version="0.2.1800.v20220811-0542" url="features/org.eclipse.tips.feature_0.2.1800.v20220811-0542/">
+		</feature>
+		<feature id="org.eclipse.m2m.qvt.oml" version="3.10.7.v20220605-1149" url="features/org.eclipse.m2m.qvt.oml_3.10.7.v20220605-1149/">
+		</feature>
+		<feature id="org.eclipse.xpand" version="2.2.0.v201605260315" url="features/org.eclipse.xpand_2.2.0.v201605260315/">
+		</feature>
+		<feature id="org.eclipse.oomph.setup.core" version="1.25.0.v20220903-1123" url="features/org.eclipse.oomph.setup.core_1.25.0.v20220903-1123/">
+		</feature>
+		<feature id="org.eclipse.jgit.ssh.apache" version="6.3.0.202209071007-r" url="features/org.eclipse.jgit.ssh.apache_6.3.0.202209071007-r/">
+		</feature>
+		<feature id="org.eclipse.wb.doc.user.feature" version="1.11.0.202210231159" url="features/org.eclipse.wb.doc.user.feature_1.11.0.202210231159/" plugin-identifier="org.eclipse.wb.doc.user">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.discovery.feature" version="1.2.1200.v20221111-1340" url="features/org.eclipse.equinox.p2.discovery.feature_1.2.1200.v20221111-1340/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.14.1800.v20220215-0126" url="features/org.eclipse.ecf.filetransfer.feature_3.14.1800.v20220215-0126/">
+		</feature>
+		<feature id="com.yattasolutions.coobra" version="1.31.0.202212071133" url="features/com.yattasolutions.coobra_1.31.0.202212071133/">
+		</feature>
+		<feature id="com.yattasolutions.xpand.patch" version="1.17.220.201910040910" url="features/com.yattasolutions.xpand.patch_1.17.220.201910040910/">
+		</feature>
+		<feature id="com.yattasolutions.xtend.typesystem.emf.patch" version="1.17.220.201910040910" url="features/com.yattasolutions.xtend.typesystem.emf.patch_1.17.220.201910040910/">
+		</feature>
+		<feature id="org.eclipse.wb.core.xml.feature" version="1.10.0.202208311516" url="features/org.eclipse.wb.core.xml.feature_1.10.0.202208311516/" plugin-identifier="org.eclipse.wb.core.xml">
+		</feature>
+		<feature id="org.eclipse.uml2.common" version="2.5.0.v20221116-1811" url="features/org.eclipse.uml2.common_2.5.0.v20221116-1811/">
+		</feature>
+		<feature id="org.eclipse.m2m.qvt.oml.runtime" version="3.10.7.v20220605-1149" url="features/org.eclipse.m2m.qvt.oml.runtime_3.10.7.v20220605-1149/">
+		</feature>
+		<feature id="org.eclipse.platform" version="4.25.0.v20220831-1800" url="features/org.eclipse.platform_4.25.0.v20220831-1800/">
+		</feature>
+		<feature id="com.yattasolutions.xtend.typesystem.uml2.patch" version="1.17.220.201910040910" url="features/com.yattasolutions.xtend.typesystem.uml2.patch_1.17.220.201910040910/">
+		</feature>
+		<feature id="org.eclipse.e4.rcp" version="4.25.0.v20220829-1402" url="features/org.eclipse.e4.rcp_4.25.0.v20220829-1402/">
+		</feature>
+		<feature id="com.yattasolutions.patches.xpand" version="1.17.220.201910040910" url="features/com.yattasolutions.patches.xpand_1.17.220.201910040910/">
+		</feature>
+		<feature id="com.yattasolutions.architecturereview_feature" version="1.31.0.202212060859" url="features/com.yattasolutions.architecturereview_feature_1.31.0.202212060859/">
+		</feature>
+		<feature id="com.yattasolutions.patches.uml2" version="1.17.550.v20221116-1811" url="features/com.yattasolutions.patches.uml2_1.17.550.v20221116-1811/">
+		</feature>
+		<feature id="org.eclipse.mylyn.wikitext.editors_feature" version="3.0.42.202201072301" url="features/org.eclipse.mylyn.wikitext.editors_feature_3.0.42.202201072301/" plugin-identifier="org.eclipse.mylyn.wikitext">
+		</feature>
+		<feature id="de.yatta.platform.browser.feature" version="2.0.8.202212071615" url="features/de.yatta.platform.browser.feature_2.0.8.202212071615/">
+		</feature>
+		<feature id="org.eclipse.uml2.uml.edit" version="5.5.0.v20221116-1811" url="features/org.eclipse.uml2.uml.edit_5.5.0.v20221116-1811/">
+		</feature>
+		<feature id="org.eclipse.jgit" version="6.3.0.202209071007-r" url="features/org.eclipse.jgit_6.3.0.202209071007-r/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.4.1700.v20220819-1949" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.1700.v20220819-1949/">
+		</feature>
+		<feature id="com.yattasolutions.xpandpp" version="1.31.0.202212071133" url="features/com.yattasolutions.xpandpp_1.31.0.202212071133/">
+		</feature>
+		<feature id="org.eclipse.uml2.codegen.ecore.ui" version="2.5.2.v20221116-1811" url="features/org.eclipse.uml2.codegen.ecore.ui_2.5.2.v20221116-1811/">
+		</feature>
+		<feature id="org.eclipse.xtend.typesystem.emf" version="2.2.0.v201605260315" url="features/org.eclipse.xtend.typesystem.emf_2.2.0.v201605260315/">
+		</feature>
+		<feature id="org.eclipse.xtend.ui" version="2.2.0.v201605260315" url="features/org.eclipse.xtend.ui_2.2.0.v201605260315/">
+		</feature>
+		<feature id="org.eclipse.uml2.uml" version="5.5.0.v20221116-1811" url="features/org.eclipse.uml2.uml_5.5.0.v20221116-1811/">
+		</feature>
+		<feature id="com.yattasolutions.umllab" version="1.31.0.202212071133" url="features/com.yattasolutions.umllab_1.31.0.202212071133/" plugin-identifier="com.yattasolutions.umllab.branding">
+		</feature>
+		<feature id="com.yattasolutions.codegen.reverse" version="1.31.0.202212071133" url="features/com.yattasolutions.codegen.reverse_1.31.0.202212071133/">
+		</feature>
+		<feature id="org.eclipse.wb.xwt.feature" version="1.10.0.202208311516" url="features/org.eclipse.wb.xwt.feature_1.10.0.202208311516/" plugin-identifier="org.eclipse.wb.xwt">
+		</feature>
+		<feature id="org.eclipse.help" version="2.3.1100.v20220831-1800" url="features/org.eclipse.help_2.3.1100.v20220831-1800/" plugin-identifier="org.eclipse.help.base">
+		</feature>
+		<feature id="org.eclipse.jgit.http.apache" version="6.3.0.202209071007-r" url="features/org.eclipse.jgit.http.apache_6.3.0.202209071007-r/">
+		</feature>
+		<feature id="com.yattasolutions.xtend.patch" version="1.17.220.201910040910" url="features/com.yattasolutions.xtend.patch_1.17.220.201910040910/">
+		</feature>
+		<feature id="org.eclipse.buildship" version="3.1.6.v20220511-1359" url="features/org.eclipse.buildship_3.1.6.v20220511-1359/" plugin-identifier="org.eclipse.buildship.branding">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.1.501.v20210409-2301" url="features/org.eclipse.ecf.core.ssl.feature_1.1.501.v20210409-2301/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient5.feature" version="1.1.701.v20221112-0806" url="features/org.eclipse.ecf.filetransfer.httpclient5.feature_1.1.701.v20221112-0806/">
+		</feature>
+		<feature id="org.eclipse.xpand.ui" version="2.2.0.v201605260315" url="features/org.eclipse.xpand.ui_2.2.0.v201605260315/">
+		</feature>
+		<feature id="de.yatta.platform.marketplace.licensing.client.feature" version="2.0.8.202212071615" url="features/de.yatta.platform.marketplace.licensing.client.feature_2.0.8.202212071615/">
+		</feature>
+		<feature id="org.eclipse.wb.core.feature" version="1.11.0.202210231159" url="features/org.eclipse.wb.core.feature_1.11.0.202210231159/" plugin-identifier="org.eclipse.wb.core">
+		</feature>
+		<feature id="org.eclipse.wb.rcp.feature" version="1.11.0.202210231159" url="features/org.eclipse.wb.rcp.feature_1.11.0.202210231159/" plugin-identifier="org.eclipse.wb.rcp">
+		</feature>
+		<feature id="org.eclipse.userstorage" version="1.2.0.v20210517-0327" url="features/org.eclipse.userstorage_1.2.0.v20210517-0327/">
+		</feature>
+		<feature id="com.yattasolutions.umllab.core" version="1.31.0.202212071133" url="features/com.yattasolutions.umllab.core_1.31.0.202212071133/">
+		</feature>
+		<feature id="org.eclipse.pde" version="3.14.1100.v20220308-0310" url="features/org.eclipse.pde_3.14.1100.v20220308-0310/">
+		</feature>
+		<feature id="org.eclipse.m2m.qvt.oml.doc" version="3.10.7.v20220605-1149" url="features/org.eclipse.m2m.qvt.oml.doc_3.10.7.v20220605-1149/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.view.feature" version="10.7.1.202208160035" url="features/org.eclipse.tm.terminal.view.feature_10.7.1.202208160035/" plugin-identifier="org.eclipse.tm.terminal.view.ui">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.25.0.v20220831-1800" url="features/org.eclipse.rcp_4.25.0.v20220831-1800/">
+		</feature>
+		<feature id="org.eclipse.jdt" version="3.18.1300.v20220831-1800" url="features/org.eclipse.jdt_3.18.1300.v20220831-1800/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.telnet.feature" version="10.7.1.202208160035" url="features/org.eclipse.tm.terminal.connector.telnet.feature_10.7.1.202208160035/">
+		</feature>
+		<feature id="org.eclipse.xtend" version="2.2.0.v201605260315" url="features/org.eclipse.xtend_2.2.0.v201605260315/">
+		</feature>
+		<feature id="org.eclipse.epp.mpc" version="1.10.0.v20220502-0731" url="features/org.eclipse.epp.mpc_1.10.0.v20220502-0731/" plugin-identifier="org.eclipse.epp.mpc.ui">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.27.0.v20220123-0838" url="features/org.eclipse.emf.ecore_2.27.0.v20220123-0838/">
+		</feature>
+		<feature id="org.eclipse.wb.layout.group.feature" version="1.11.0.202210231159" url="features/org.eclipse.wb.layout.group.feature_1.11.0.202210231159/" plugin-identifier="org.eclipse.wb.layout.group">
+		</feature>
+		<feature id="com.yattasolutions.platform.marketplace.client.feature" version="2.0.8.202212071615" url="features/com.yattasolutions.platform.marketplace.client.feature_2.0.8.202212071615/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.4.1700.v20220819-1949" url="features/org.eclipse.equinox.p2.extras.feature_1.4.1700.v20220819-1949/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.ssh.feature" version="10.7.1.202208160035" url="features/org.eclipse.tm.terminal.connector.ssh.feature_10.7.1.202208160035/" plugin-identifier="org.eclipse.tm.terminal.connector.ssh">
+		</feature>
+		<feature id="org.eclipse.oomph.setup" version="1.26.0.v20220905-0631" url="features/org.eclipse.oomph.setup_1.26.0.v20220905-0631/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.25.0.v20220123-0838" url="features/org.eclipse.emf.common_2.25.0.v20220123-0838/">
+		</feature>
+		<feature id="com.yattasolutions.xpand.ui.patch" version="1.17.220.201910040910" url="features/com.yattasolutions.xpand.ui.patch_1.17.220.201910040910/">
+		</feature>
+		<feature id="de.yatta.platform.analytics" version="1.3.70.202212071114" url="features/de.yatta.platform.analytics_1.3.70.202212071114/">
+		</feature>
+		<feature id="org.eclipse.egit" version="6.3.0.202209071007-r" url="features/org.eclipse.egit_6.3.0.202209071007-r/">
+		</feature>
+		<feature id="com.yattasolutions.diagrams.classdiagram" version="1.31.0.202212071133" url="features/com.yattasolutions.diagrams.classdiagram_1.31.0.202212071133/">
+		</feature>
+		<feature id="org.eclipse.xtend.typesystem.uml2" version="2.2.0.v201605260315" url="features/org.eclipse.xtend.typesystem.uml2_2.2.0.v201605260315/">
+		</feature>
+		<feature id="com.yattasolutions.xpand.sdk.patch" version="1.17.220.201910040910" url="features/com.yattasolutions.xpand.sdk.patch_1.17.220.201910040910/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.30.0.v20221121-1400" url="features/org.eclipse.emf.ecore_2.30.0.v20221121-1400/">
+		</feature>
+		<feature id="com.yattasolutions.openlibs" version="1.31.0.202212071133" url="features/com.yattasolutions.openlibs_1.31.0.202212071133/">
+		</feature>
+		<feature id="com.yattasolutions.diagrams.core" version="1.31.0.202212071133" url="features/com.yattasolutions.diagrams.core_1.31.0.202212071133/">
+		</feature>
+		<feature id="org.eclipse.wb.swing.feature" version="1.11.0.202210231159" url="features/org.eclipse.wb.swing.feature_1.11.0.202210231159/" plugin-identifier="org.eclipse.wb.swing">
+		</feature>
+		<feature id="org.eclipse.wb.swing.doc.user.feature" version="1.11.0.202210231159" url="features/org.eclipse.wb.swing.doc.user.feature_1.11.0.202210231159/" plugin-identifier="org.eclipse.wb.swing.doc.user">
+		</feature>
+		<feature id="org.eclipse.wb.core.ui.feature" version="1.11.0.202210231159" url="features/org.eclipse.wb.core.ui.feature_1.11.0.202210231159/" plugin-identifier="org.eclipse.wb.core.ui">
+		</feature>
+		<feature id="org.eclipse.m2e.logback.feature" version="2.0.0.20220717-0848" url="features/org.eclipse.m2e.logback.feature_2.0.0.20220717-0848/" plugin-identifier="org.eclipse.m2e.logback.configuration">
+		</feature>
+		<feature id="org.eclipse.wb.core.java.feature" version="1.11.0.202210231159" url="features/org.eclipse.wb.core.java.feature_1.11.0.202210231159/">
+		</feature>
+		<feature id="com.yattasolutions.org.eclipse.emf.compare" version="1.3.3.v20220914-0735" url="features/com.yattasolutions.org.eclipse.emf.compare_1.3.3.v20220914-0735/">
+		</feature>
+		<feature id="de.yatta.platform.privacypolicy" version="2.0.8.202212071615" url="features/de.yatta.platform.privacypolicy_2.0.8.202212071615/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.control.feature" version="10.7.1.202208160035" url="features/org.eclipse.tm.terminal.control.feature_10.7.1.202208160035/" plugin-identifier="org.eclipse.tm.terminal.control">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.feature" version="10.7.1.202208160035" url="features/org.eclipse.tm.terminal.feature_10.7.1.202208160035/" plugin-identifier="org.eclipse.tm.terminal.view.core">
+		</feature>
+		<feature id="org.eclipse.uml2.common.edit" version="2.5.0.v20221116-1811" url="features/org.eclipse.uml2.common.edit_2.5.0.v20221116-1811/">
+		</feature>
+		<feature id="org.eclipse.jgit.gpg.bc" version="6.3.0.202209071007-r" url="features/org.eclipse.jgit.gpg.bc_6.3.0.202209071007-r/">
+		</feature>
+		<feature id="org.eclipse.tm.terminal.connector.local.feature" version="10.7.1.202208160035" url="features/org.eclipse.tm.terminal.connector.local.feature_10.7.1.202208160035/">
+		</feature>
+		<feature id="org.eclipse.wb.rcp.SWT_AWT_support" version="1.11.0.202210231159" url="features/org.eclipse.wb.rcp.SWT_AWT_support_1.11.0.202210231159/" plugin-identifier="org.eclipse.wb.rcp.SWT_AWT">
+		</feature>
+		<feature id="org.eclipse.justj.openjdk.hotspot.jre.full" version="17.0.2.v20220201-1208" url="features/org.eclipse.justj.openjdk.hotspot.jre.full_17.0.2.v20220201-1208/">
+		</feature>
+		<feature id="org.eclipse.uml2" version="5.5.3.v20221116-1811" url="features/org.eclipse.uml2_5.5.3.v20221116-1811/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.4.1700.v20220819-1949" url="features/org.eclipse.equinox.p2.user.ui_2.4.1700.v20220819-1949/">
+		</feature>
+		<feature id="org.eclipse.wb.rcp.doc.user.feature" version="1.11.0.202210231159" url="features/org.eclipse.wb.rcp.doc.user.feature_1.11.0.202210231159/" plugin-identifier="org.eclipse.wb.rcp.doc.user">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.6.1500.v20220819-1949" url="features/org.eclipse.equinox.p2.core.feature_1.6.1500.v20220819-1949/">
+		</feature>
+		<feature id="com.yattasolutions.qvto" version="1.31.0.202212071133" url="features/com.yattasolutions.qvto_1.31.0.202212071133/">
+		</feature>
+		<feature id="org.eclipse.m2e.lemminx.feature" version="2.0.0.20220729-1256" url="features/org.eclipse.m2e.lemminx.feature_2.0.0.20220729-1256/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.6.1.v20211005-1944" url="features/org.eclipse.ecf.core.feature_1.6.1.v20211005-1944/">
+		</feature>
+		<feature id="com.yattasolutions.codegen" version="1.31.0.202212071133" url="features/com.yattasolutions.codegen_1.31.0.202212071133/">
+		</feature>
+		<feature id="org.eclipse.m2m.qvt.oml.examples" version="3.10.7.v20220605-1149" url="features/org.eclipse.m2m.qvt.oml.examples_3.10.7.v20220605-1149/" plugin-identifier="org.eclipse.m2m.qvt.oml.samples">
+		</feature>
+		<feature id="org.eclipse.eclemma.feature" version="3.1.6.202206011447" url="features/org.eclipse.eclemma.feature_3.1.6.202206011447/" plugin-identifier="org.eclipse.eclemma.ui">
+		</feature>
+		<feature id="org.eclipse.oomph.p2" version="1.24.0.v20220822-1127" url="features/org.eclipse.oomph.p2_1.24.0.v20220822-1127/">
+		</feature>
+		<feature id="com.yattasolutions.features" version="1.31.0.202212071133" url="features/com.yattasolutions.features_1.31.0.202212071133/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.1.401.v20210409-2301" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.401.v20210409-2301/">
+		</feature>
+		<feature id="org.eclipse.epp.package.common.feature" version="4.25.0.20220908-1200" url="features/org.eclipse.epp.package.common.feature_4.25.0.20220908-1200/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.28.0.v20221121-1400" url="features/org.eclipse.emf.common_2.28.0.v20221121-1400/">
+		</feature>
+	</site>
+</config>

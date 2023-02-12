@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.m2m.qvt.oml"
+      label="%featureName"
+      version="3.10.7.v20220605-1149"
+      provider-name="%providerName"
+      plugin="org.eclipse.m2m.qvt.oml"
+      image="eclipse_update_120.jpg">
+
+   <description url="http://www.eclipse.org/mmt/qvto">
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v20.html">
+      %copyright
+   </copyright>
+
+   <plugin
+         id="org.eclipse.m2m.qvt.oml"
+         download-size="1087"
+         install-size="2702"
+         version="3.10.7.v20220605-1149"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2m.qvt.oml.common"
+         download-size="68"
+         install-size="117"
+         version="3.10.2.v20220605-1149"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2m.qvt.oml.cst.parser"
+         download-size="870"
+         install-size="1968"
+         version="3.9.0.v20220605-1149"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2m.qvt.oml.emf.util"
+         download-size="77"
+         install-size="151"
+         version="3.10.6.v20220605-1149"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2m.qvt.oml.ecore.imperativeocl"
+         download-size="143"
+         install-size="399"
+         version="3.10.2.v20220605-1149"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

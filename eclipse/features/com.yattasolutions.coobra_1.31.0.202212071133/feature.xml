@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yattasolutions.coobra"
+      label="CoObRA Feature"
+      version="1.31.0.202212071133"
+      provider-name="%providerName">
+
+   <description>
+      CoObRA Feature
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+   %licenseText 
+   </license>
+
+   <url>
+      <update label="UML Lab Update Site" url="https://platform.yatta.de/update/uml-lab"/>
+   </url>
+
+   <includes
+         id="com.yattasolutions.features"
+         version="1.31.0.202212071133"/>
+
+   <plugin
+         id="com.yattasolutions.coobra"
+         download-size="307"
+         install-size="631"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+   <plugin
+         id="com.yattasolutions.coobra.emf"
+         download-size="19"
+         install-size="42"
+         version="1.31.0.202212071133"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.m2m.qvt.oml.editor"
+      label="%featureName"
+      version="3.10.7.v20220605-1149"
+      provider-name="%providerName"
+      plugin="org.eclipse.m2m.qvt.oml.editor.ui"
+      image="eclipse_update_120.jpg">
+
+   <description url="http://www.eclipse.org/mmt/qvto">
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v20.html">
+      %copyright
+   </copyright>
+
+   <plugin
+         id="org.eclipse.m2m.qvt.oml.editor.ui"
+         download-size="455"
+         install-size="981"
+         version="3.10.3.v20220605-1149"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.m2m.qvt.oml.ui"
+         download-size="167"
+         install-size="335"
+         version="3.10.3.v20220605-1149"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>
